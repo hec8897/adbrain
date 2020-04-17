@@ -11,6 +11,7 @@ new Vue({
                     <router-view />
                     <app-footer />
                 </div>`,
+                
     components:{
         'app-header':Header,
         'app-footer':Footer

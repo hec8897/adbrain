@@ -120,7 +120,7 @@ exports = ___CSS_LOADER_API_IMPORT___(false);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
 // Module
-exports.push([module.i, "header {\n  padding: 35px 0px;\n  border-bottom: 1px solid #d0d0d0;\n  text-align: center; }\n  header h1 {\n    display: inline-block;\n    max-width: 155px;\n    cursor: pointer; }\n  header ul {\n    display: inline-block;\n    width: 80%;\n    max-width: 865px;\n    text-align: center; }\n    header ul li {\n      display: inline;\n      font-size: 1.125rem;\n      margin: 0px 25px;\n      font-weight: normal;\n      cursor: pointer; }\n      header ul li ol {\n        min-width: 150px;\n        height: auto;\n        border: 1px solid #d0d0d0;\n        z-index: 90;\n        position: absolute;\n        left: 50%;\n        margin-top: 0px;\n        transform: translateX(-50%);\n        background-color: #fff;\n        border-radius: 10px;\n        -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);\n        -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);\n        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);\n        opacity: 0.0;\n        visibility: hidden;\n        transition: .2s ease-in-out;\n        padding-bottom: 15px; }\n        header ul li ol div.speech_box {\n          background-color: #fff;\n          width: 18px;\n          height: 18px;\n          margin: 0 auto;\n          margin-top: -10px;\n          transform: rotate(45deg);\n          border-top: 1px solid #d0d0d0;\n          border-left: 1px solid #d0d0d0;\n          position: relative;\n          z-index: 50; }\n        header ul li ol li {\n          font-size: 14px;\n          line-height: 16px;\n          display: block;\n          margin: 15px 0px;\n          box-sizing: border-box;\n          text-align: center; }\n          header ul li ol li a {\n            color: #666; }\n      header ul li:hover {\n        color: #0061b0;\n        font-weight: bold; }\n      header ul li:hover ol {\n        visibility: visible;\n        opacity: 1.0;\n        margin-top: 25px; }\n    header ul span.router-link-active {\n      color: #0061b0;\n      font-weight: bold; }\n  header div.com_info {\n    max-width: 170px;\n    display: inline-block;\n    text-align: right; }\n    header div.com_info div.line {\n      width: 1px;\n      height: 30px;\n      background-color: #d0d0d0;\n      vertical-align: middle;\n      margin: 0px 12px;\n      display: none; }\n    header div.com_info div.ham_btn {\n      display: none;\n      width: 25px;\n      height: 20px;\n      vertical-align: middle;\n      cursor: pointer; }\n      header div.com_info div.ham_btn div {\n        width: 100%;\n        height: 2px;\n        background-color: #222;\n        margin-bottom: 6px; }\n        header div.com_info div.ham_btn div:nth-last-child(1) {\n          background-color: #0061b0; }\n\n@media (max-width: 1200px) {\n  header ul {\n    width: 60%; }\n    header ul li {\n      margin: 0px 15px;\n      font-size: 16px; }\n  header div.com_info img {\n    width: 90px; }\n  header div.com_info div.line {\n    margin: 0px 5px; }\n  header div.com_info div.ham_btn {\n    width: 23px;\n    height: 20px; } }\n\n@media (max-width: 960px) {\n  header ul {\n    width: 60%; }\n    header ul li {\n      margin: 0px 10px;\n      font-size: 14px; } }\n\n@media (max-width: 767px) {\n  header {\n    text-align: left;\n    padding: 15px 0px; }\n    header h1 {\n      max-width: 120px; }\n      header h1 img {\n        width: 100%;\n        vertical-align: middle; }\n    header ul {\n      display: none; }\n    header div.com_info {\n      position: absolute;\n      right: 2%;\n      top: 50%;\n      transform: translateY(-50%); }\n      header div.com_info img {\n        display: none; }\n      header div.com_info div.line {\n        display: none; }\n      header div.com_info div.ham_btn {\n        display: inline-block; } }\n\nfooter {\n  width: 100%;\n  height: 500px;\n  background-color: #666; }\n\n/***********common section1************/\n/***********common section1************/\n/***********common section1************/\nsection.section1 {\n  text-align: center;\n  padding: 150px 0px;\n  background-size: cover;\n  background-position: center;\n  background-repeat: no-repeat; }\n  section.section1 h2 {\n    font-size: 3.375rem;\n    font-weight: bold;\n    color: #fff;\n    text-shadow: 2px 2px 2px #666; }\n\ndiv.board section.section1 {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n\ndiv.contact section.section1 {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + "); }\n\nsection.section2 {\n  padding: 100px 0px; }\n  section.section2 h2 {\n    font-size: 2.813rem;\n    text-align: center;\n    font-weight: normal; }\n\n@media (max-width: 1200px) {\n  section.section1 h2 {\n    font-size: 3.125rem; } }\n\n@media (max-width: 960px) {\n  section.section1 h2 {\n    font-size: 2.125rem; }\n  section.section2 {\n    padding: 50px 0px; }\n    section.section2 h2 {\n      font-size: 30px; } }\n", ""]);
+exports.push([module.i, "header {\n  padding: 35px 0px;\n  border-bottom: 1px solid #d0d0d0;\n  text-align: center;\n  position: relative;\n  z-index: 100; }\n  header h1 {\n    display: inline-block;\n    max-width: 155px;\n    cursor: pointer; }\n  header ul.head_ul {\n    display: inline-block;\n    width: 80%;\n    max-width: 865px;\n    text-align: center; }\n    header ul.head_ul li {\n      display: inline;\n      font-size: 1.125rem;\n      margin: 0px 25px;\n      font-weight: normal;\n      cursor: pointer; }\n      header ul.head_ul li ol {\n        min-width: 150px;\n        height: auto;\n        border: 1px solid #d0d0d0;\n        z-index: 90;\n        position: absolute;\n        left: 50%;\n        margin-top: 0px;\n        transform: translateX(-50%);\n        background-color: #fff;\n        border-radius: 10px;\n        -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);\n        -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);\n        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);\n        opacity: 0.0;\n        visibility: hidden;\n        transition: .2s ease-in-out;\n        padding-bottom: 15px; }\n        header ul.head_ul li ol div.speech_box {\n          background-color: #fff;\n          width: 18px;\n          height: 18px;\n          margin: 0 auto;\n          margin-top: -10px;\n          transform: rotate(45deg);\n          border-top: 1px solid #d0d0d0;\n          border-left: 1px solid #d0d0d0;\n          position: relative;\n          z-index: 50; }\n        header ul.head_ul li ol li {\n          font-size: 14px;\n          line-height: 16px;\n          display: block;\n          margin: 15px 0px;\n          box-sizing: border-box;\n          text-align: center; }\n          header ul.head_ul li ol li a {\n            color: #666; }\n      header ul.head_ul li:hover {\n        color: #0061b0;\n        font-weight: bold; }\n      header ul.head_ul li:hover ol {\n        visibility: visible;\n        opacity: 1.0;\n        margin-top: 25px; }\n    header ul.head_ul span.router-link-active {\n      color: #0061b0;\n      font-weight: bold; }\n  header div.com_info {\n    max-width: 170px;\n    display: inline-block;\n    text-align: right; }\n    header div.com_info div.line {\n      width: 1px;\n      height: 30px;\n      background-color: #d0d0d0;\n      vertical-align: middle;\n      margin: 0px 12px;\n      display: none; }\n    header div.com_info #nav-icon3 {\n      width: 25px;\n      height: 20px;\n      display: inline-block;\n      vertical-align: middle;\n      margin: 50px auto;\n      -webkit-transform: rotate(0deg);\n      -moz-transform: rotate(0deg);\n      -o-transform: rotate(0deg);\n      transform: rotate(0deg);\n      -webkit-transition: .5s ease-in-out;\n      -moz-transition: .5s ease-in-out;\n      -o-transition: .5s ease-in-out;\n      transition: .5s ease-in-out;\n      cursor: pointer;\n      display: none; }\n      header div.com_info #nav-icon3 span {\n        display: block;\n        position: absolute;\n        height: 2px;\n        width: 100%;\n        background: #222;\n        opacity: 1;\n        left: 0;\n        -webkit-transform: rotate(0deg);\n        -moz-transform: rotate(0deg);\n        -o-transform: rotate(0deg);\n        transform: rotate(0deg);\n        -webkit-transition: .25s ease-in-out;\n        -moz-transition: .25s ease-in-out;\n        -o-transition: .25s ease-in-out;\n        transition: .25s ease-in-out; }\n        header div.com_info #nav-icon3 span:nth-child(1) {\n          top: 8px; }\n        header div.com_info #nav-icon3 span:nth-child(2), header div.com_info #nav-icon3 span:nth-child(3) {\n          top: 16px;\n          background-color: #0061b0; }\n        header div.com_info #nav-icon3 span:nth-child(4) {\n          top: 24px; }\n    header div.com_info #nav-icon3.open span:nth-child(1) {\n      top: 18px;\n      width: 0%;\n      left: 50%; }\n    header div.com_info #nav-icon3.open span:nth-child(2) {\n      -webkit-transform: rotate(45deg);\n      -moz-transform: rotate(45deg);\n      -o-transform: rotate(45deg);\n      transform: rotate(45deg); }\n    header div.com_info #nav-icon3.open span:nth-child(3) {\n      -webkit-transform: rotate(-45deg);\n      -moz-transform: rotate(-45deg);\n      -o-transform: rotate(-45deg);\n      transform: rotate(-45deg); }\n    header div.com_info #nav-icon3.open span:nth-child(4) {\n      top: 18px;\n      width: 0%;\n      left: 50%; }\n    header div.com_info div.ham_btn {\n      display: none;\n      width: 25px;\n      height: 20px;\n      vertical-align: middle;\n      cursor: pointer; }\n      header div.com_info div.ham_btn span {\n        display: block;\n        width: 100%;\n        height: 2px;\n        background-color: #222;\n        margin-bottom: 6px; }\n        header div.com_info div.ham_btn span:nth-last-child(1) {\n          background-color: #0061b0; }\n\ndiv.mo_nav {\n  width: 100%;\n  height: 100%;\n  position: fixed;\n  background-color: #fff;\n  z-index: 99;\n  top: 67px; }\n\n.fade-enter-active {\n  transition: opacity .1s; }\n\n.fade-enter, .fade-leave-to {\n  opacity: 0; }\n\n@media (max-width: 1200px) {\n  header ul.head_ul {\n    width: 60%; }\n    header ul.head_ul li {\n      margin: 0px 15px;\n      font-size: 16px; }\n  header div.com_info div.line {\n    margin: 0px 5px; }\n  header div.com_info div.ham_btn {\n    width: 23px;\n    height: 20px; } }\n\n@media (max-width: 960px) {\n  header ul.head_ul {\n    width: 60%; }\n    header ul.head_ul li {\n      margin: 0px 10px;\n      font-size: 14px; } }\n\n@media (max-width: 767px) {\n  header {\n    text-align: left;\n    padding: 15px 0px; }\n    header h1 {\n      max-width: 120px; }\n      header h1 img {\n        width: 100%;\n        vertical-align: middle; }\n    header ul.head_ul {\n      display: none; }\n    header div.com_info {\n      position: absolute;\n      right: 2%;\n      top: 50%;\n      transform: translateY(-50%); }\n      header div.com_info #nav-icon3 {\n        display: inline-block; }\n      header div.com_info img {\n        display: none; }\n      header div.com_info div.line {\n        display: none; }\n      header div.com_info div.ham_btn {\n        display: inline-block; }\n    header div.mo_nav ul {\n      width: 100%;\n      display: block; }\n      header div.mo_nav ul li {\n        cursor: pointer;\n        width: 100%;\n        display: block;\n        font-size: 16px;\n        padding: 20px 30px;\n        text-align: left;\n        border-bottom: 1px solid #d0d0d0;\n        margin: 0px; }\n    header div.mo_nav div.com_info_mo {\n      text-align: center;\n      margin-top: 50px; } }\n\nfooter {\n  width: 100%;\n  height: 500px;\n  background-color: #666; }\n\n/***********common section1************/\n/***********common section1************/\n/***********common section1************/\nsection.section1 {\n  text-align: center;\n  padding: 150px 0px;\n  background-size: cover;\n  background-position: center;\n  background-repeat: no-repeat; }\n  section.section1 h2 {\n    font-size: 3.375rem;\n    font-weight: bold;\n    color: #fff;\n    text-shadow: 2px 2px 2px #666; }\n\ndiv.board section.section1 {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n\ndiv.contact section.section1 {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + "); }\n\nsection.section2 {\n  padding: 100px 0px; }\n  section.section2 h2 {\n    font-size: 2.813rem;\n    text-align: center;\n    font-weight: normal; }\n\n@media (max-width: 1200px) {\n  section.section1 h2 {\n    font-size: 3.125rem; } }\n\n@media (max-width: 960px) {\n  section.section1 h2 {\n    font-size: 2.125rem; }\n  section.section2 {\n    padding: 50px 0px; }\n    section.section2 h2 {\n      font-size: 30px; } }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -3624,6 +3624,7 @@ new Vue({
                     <router-view />
                     <app-footer />
                 </div>`,
+                
     components:{
         'app-header':_common_header__WEBPACK_IMPORTED_MODULE_1__["default"],
         'app-footer':_common_footer__WEBPACK_IMPORTED_MODULE_2__["default"]
@@ -3815,12 +3816,15 @@ const Footer = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _common_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./common.scss */ "./src/common/common.scss");
 /* harmony import */ var _common_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_common_scss__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _mo_nav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./mo_nav */ "./src/common/mo_nav.js");
+
 
 const Header = {
     template:`<header>
+                <mo-nav v-bind:show='Navshow'/>
                 <div class='wrap'>
                     <router-link tag='h1' to='/'><img src='image/ci.png' alt='로고'></router-link>
-                    <ul>
+                    <ul class='head_ul'>
                         <li>
                             <router-link to='/about' tag='span'>애드브레인</router-link>
                             <ol class='gnb_mini'>
@@ -3862,18 +3866,75 @@ const Header = {
                     <div class='com_info'>
                         <img src='image/com_phone.png'>
                         <div class='line'></div>
-                        <div class='ham_btn'>
-                            <div></div>
-                            <div></div>
-                            <div></div>
+                        <div id='nav-icon3' class='ham_btn' @click='NavOpen($event)'>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
                         </div>
 
                     </div>
                 </div>
-              </header>`
+              </header>`,
+              components:{
+                  'mo-nav':_mo_nav__WEBPACK_IMPORTED_MODULE_1__["default"]
+              },
+              data(){
+                  return{
+                    Navshow:false
+                  }
+              },
+              methods: {
+                  NavOpen() {
+                      const Target = document.getElementById('nav-icon3')
+
+                      this.Navshow == true
+                      ?this.Navshow = false:
+                      this.Navshow = true
+
+                      Target.className = this.Navshow == true
+                      ?'open ham_btn':
+                      'ham_btn'
+                  },
+              },
+
+              
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
+
+/***/ }),
+
+/***/ "./src/common/mo_nav.js":
+/*!******************************!*\
+  !*** ./src/common/mo_nav.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+const MoNav = {
+    props:['show'],
+    template:`
+    <transition name='fade'>
+    <div class='mo_nav' v-if='show'>
+        <ul>
+            <li><router-link tag='span' to='/about'>에드브레인</router-link></li>
+            <li><router-link tag='span' to='/business'>사업분야</router-link></li>
+            <li><router-link tag='span' to='/case'>광고사례</router-link></li>
+            <li><router-link tag='span' to='/board'>자료실</router-link></li>
+            <li><router-link tag='span' to='/contact'>광고문의</router-link></li>
+        </ul>
+        <div class='com_info_mo'>
+            <img src='image/com_phone.png'>
+        </div>
+    </div>
+    </transition>`,
+   
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (MoNav);
 
 /***/ }),
 

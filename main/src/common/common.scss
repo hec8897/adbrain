@@ -2,12 +2,14 @@ header{
     padding: 35px 0px;
     border-bottom: 1px solid #d0d0d0;
     text-align: center;
+    position: relative;
+    z-index: 100;
     h1{
         display: inline-block;
         max-width: 155px;
         cursor: pointer;
     }
-    ul{
+    ul.head_ul{
         display: inline-block;
         width: 80%;
         max-width: 865px;
@@ -89,8 +91,81 @@ header{
             // display: inline-block;
             margin: 0px 12px;
             display: none;
-
         }
+        #nav-icon3 {
+            width: 25px;
+            height: 20px;
+            display: inline-block;
+            vertical-align: middle;
+            margin: 50px auto;
+            -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+            -webkit-transition: .5s ease-in-out;
+            -moz-transition: .5s ease-in-out;
+            -o-transition: .5s ease-in-out;
+            transition: .5s ease-in-out;
+            cursor: pointer;
+            display: none;
+
+            span {
+                display: block;
+                position: absolute;
+                height: 2px;
+                width: 100%;
+                background: #222;
+                opacity: 1;
+                left: 0;
+                -webkit-transform: rotate(0deg);
+                -moz-transform: rotate(0deg);
+                -o-transform: rotate(0deg);
+                transform: rotate(0deg);
+                -webkit-transition: .25s ease-in-out;
+                -moz-transition: .25s ease-in-out;
+                -o-transition: .25s ease-in-out;
+                transition: .25s ease-in-out;
+                &:nth-child(1){
+                    top: 8px;
+                }
+                &:nth-child(2),
+                &:nth-child(3){
+                    top: 16px;
+                    background-color: #0061b0;
+                }
+                &:nth-child(4){
+                    top: 24px;
+                }
+              }
+          }
+          
+          #nav-icon3.open{
+              span{
+                    &:nth-child(1) {
+                        top: 18px;
+                        width: 0%;
+                        left: 50%;
+                    }
+                    &:nth-child(2) {
+                        -webkit-transform: rotate(45deg);
+                        -moz-transform: rotate(45deg);
+                        -o-transform: rotate(45deg);
+                        transform: rotate(45deg);
+                    }
+                    &:nth-child(3) {
+                        -webkit-transform: rotate(-45deg);
+                        -moz-transform: rotate(-45deg);
+                        -o-transform: rotate(-45deg);
+                        transform: rotate(-45deg);
+                    }
+                    &:nth-child(4) {
+                        top: 18px;
+                        width: 0%;
+                        left: 50%;
+                    }
+                }
+          }
+
         div.ham_btn{
             // display: inline-block;
             display: none;
@@ -98,7 +173,8 @@ header{
             height: 20px;
             vertical-align: middle;
             cursor: pointer;
-            div{
+            span{
+                display: block;
                 width: 100%;
                 height: 2px;
                 background-color: #222;
@@ -108,12 +184,31 @@ header{
                 }
             }
         }
+
+          
+          
     }
 }
 
+div.mo_nav{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: #fff;
+    z-index: 99;
+    top: 67px;
+}
+
+.fade-enter-active {
+    transition: opacity .1s;
+  }
+  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+  }
+
 @media (max-width:1200px){
     header{
-        ul{
+        ul.head_ul{
             width: 60%;
             li{
                 margin: 0px 15px;
@@ -121,9 +216,7 @@ header{
             }
         }
         div.com_info{
-            img{
-                width: 90px;
-            }
+        
             div.line{
                 margin: 0px 5px;
             }
@@ -137,7 +230,7 @@ header{
 }
 @media (max-width:960px){
     header{
-        ul{
+        ul.head_ul{
             width: 60%;
             li{
                 margin: 0px 10px;
@@ -148,6 +241,7 @@ header{
 }
 
 @media (max-width:767px){
+  
     header{
         text-align: left;
         padding: 15px 0px;
@@ -158,7 +252,7 @@ header{
                 vertical-align: middle;
             }
         }
-        ul{
+        ul.head_ul{
             display: none;
         }
         div.com_info{
@@ -166,6 +260,9 @@ header{
             right: 2%;
             top: 50%;
             transform: translateY(-50%);
+            #nav-icon3 {
+                display: inline-block;
+            }
             img{
                 display: none;
             }
@@ -175,7 +272,27 @@ header{
             div.ham_btn{
                 display: inline-block;
             }
-        
+        }
+   
+        div.mo_nav{
+            ul{
+                width: 100%;
+                display: block;;
+                li{
+                    cursor: pointer;
+                    width: 100%;
+                    display: block;;
+                    font-size: 16px;
+                    padding: 20px 30px;
+                    text-align: left;
+                    border-bottom: 1px solid #d0d0d0;
+                    margin: 0px;
+                }
+            }
+            div.com_info_mo{
+                text-align: center;
+                margin-top:50px;
+            }
         }
 
     }

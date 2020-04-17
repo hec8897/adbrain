@@ -1,9 +1,11 @@
 import './common.scss'
+import MoNav from './mo_nav'
 const Header = {
     template:`<header>
+                <mo-nav v-bind:show='Navshow'/>
                 <div class='wrap'>
                     <router-link tag='h1' to='/'><img src='image/ci.png' alt='로고'></router-link>
-                    <ul>
+                    <ul class='head_ul'>
                         <li>
                             <router-link to='/about' tag='span'>애드브레인</router-link>
                             <ol class='gnb_mini'>
@@ -45,15 +47,39 @@ const Header = {
                     <div class='com_info'>
                         <img src='image/com_phone.png'>
                         <div class='line'></div>
-                        <div class='ham_btn'>
-                            <div></div>
-                            <div></div>
-                            <div></div>
+                        <div id='nav-icon3' class='ham_btn' @click='NavOpen($event)'>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
                         </div>
 
                     </div>
                 </div>
-              </header>`
+              </header>`,
+              components:{
+                  'mo-nav':MoNav
+              },
+              data(){
+                  return{
+                    Navshow:false
+                  }
+              },
+              methods: {
+                  NavOpen() {
+                      const Target = document.getElementById('nav-icon3')
+
+                      this.Navshow == true
+                      ?this.Navshow = false:
+                      this.Navshow = true
+
+                      Target.className = this.Navshow == true
+                      ?'open ham_btn':
+                      'ham_btn'
+                  },
+              },
+
+              
 }
 
 export default Header;
