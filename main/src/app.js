@@ -1,7 +1,7 @@
 import './element.scss'
+import EventBus from './eventbus'
 import Header from './common/header'
 import Footer from './common/footer'
-
 import router from './router'
 
 new Vue({
@@ -17,6 +17,6 @@ new Vue({
         'app-footer':Footer
 
 
-    }            
+    }        
 
 }).$mount('#app')

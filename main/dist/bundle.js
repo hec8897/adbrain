@@ -3608,9 +3608,10 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _element_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./element.scss */ "./src/element.scss");
 /* harmony import */ var _element_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_element_scss__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _common_header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./common/header */ "./src/common/header.js");
-/* harmony import */ var _common_footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./common/footer */ "./src/common/footer.js");
-/* harmony import */ var _router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./router */ "./src/router.js");
+/* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./eventbus */ "./src/eventbus.js");
+/* harmony import */ var _common_header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./common/header */ "./src/common/header.js");
+/* harmony import */ var _common_footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./common/footer */ "./src/common/footer.js");
+/* harmony import */ var _router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./router */ "./src/router.js");
 
 
 
@@ -3618,7 +3619,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 new Vue({
-    router: _router__WEBPACK_IMPORTED_MODULE_3__["default"],
+    router: _router__WEBPACK_IMPORTED_MODULE_4__["default"],
     template: `<div>
                     <app-header/>
                     <router-view />
@@ -3626,11 +3627,11 @@ new Vue({
                 </div>`,
                 
     components:{
-        'app-header':_common_header__WEBPACK_IMPORTED_MODULE_1__["default"],
-        'app-footer':_common_footer__WEBPACK_IMPORTED_MODULE_2__["default"]
+        'app-header':_common_header__WEBPACK_IMPORTED_MODULE_2__["default"],
+        'app-footer':_common_footer__WEBPACK_IMPORTED_MODULE_3__["default"]
 
 
-    }            
+    }        
 
 }).$mount('#app')
 
@@ -3678,6 +3679,9 @@ module.exports = exported;
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _default_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./default.scss */ "./src/board/default.scss");
 /* harmony import */ var _default_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_default_scss__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../eventbus */ "./src/eventbus.js");
+
+
 
 const BoardPage = {
     template: `<div class='board'>
@@ -3732,7 +3736,10 @@ const BoardPage = {
             </div>
 
         </section>
-    </div>`
+    </div>`,
+     created(){
+        _eventbus__WEBPACK_IMPORTED_MODULE_1__["default"].$emit('NavClose',true)
+    }
 }
 /* harmony default export */ __webpack_exports__["default"] = (BoardPage);
 
@@ -3747,8 +3754,13 @@ const BoardPage = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../eventbus */ "./src/eventbus.js");
+
 const CasePage = {
-    template:`<div>광고사례</div>`
+    template:`<div>광고사례</div>`,
+    created(){
+        _eventbus__WEBPACK_IMPORTED_MODULE_0__["default"].$emit('NavClose',true)
+    }
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (CasePage);
@@ -3817,6 +3829,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _common_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./common.scss */ "./src/common/common.scss");
 /* harmony import */ var _common_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_common_scss__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _mo_nav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./mo_nav */ "./src/common/mo_nav.js");
+/* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../eventbus */ "./src/eventbus.js");
+
+
 
 
 const Header = {
@@ -3884,6 +3899,12 @@ const Header = {
                     Navshow:false
                   }
               },
+              mounted(){
+                _eventbus__WEBPACK_IMPORTED_MODULE_2__["default"].$on('NavClose',()=>{
+                    this.NavClose()
+                    console.log('close')
+                })
+              },
               methods: {
                   NavOpen() {
                       const Target = document.getElementById('nav-icon3')
@@ -3896,6 +3917,11 @@ const Header = {
                       ?'open ham_btn':
                       'ham_btn'
                   },
+                  NavClose(){
+                    const Target = document.getElementById('nav-icon3')
+                    this.Navshow = false;
+                    Target.className = 'ham_btn'
+                  }
               },
 
               
@@ -3920,11 +3946,11 @@ const MoNav = {
     <transition name='fade'>
     <div class='mo_nav' v-if='show'>
         <ul>
-            <li><router-link tag='span' to='/about'>에드브레인</router-link></li>
-            <li><router-link tag='span' to='/business'>사업분야</router-link></li>
-            <li><router-link tag='span' to='/case'>광고사례</router-link></li>
-            <li><router-link tag='span' to='/board'>자료실</router-link></li>
-            <li><router-link tag='span' to='/contact'>광고문의</router-link></li>
+            <router-link tag='li' to='/about'>에드브레인</router-link>
+            <router-link tag='li' to='/business'>사업분야</router-link>
+            <router-link tag='li' to='/case'>광고사례</router-link>
+            <router-link tag='li' to='/board'>자료실</router-link>
+            <router-link tag='li' to='/contact'>광고문의</router-link>
         </ul>
         <div class='com_info_mo'>
             <img src='image/com_phone.png'>
@@ -3980,6 +4006,8 @@ module.exports = exported;
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _default_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./default.scss */ "./src/contact/default.scss");
 /* harmony import */ var _default_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_default_scss__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../eventbus */ "./src/eventbus.js");
+
 
 const contact = {
     template: `
@@ -4072,7 +4100,10 @@ const contact = {
                     </div>
         </section>
 
-    </div>`
+    </div>`,
+    created(){
+        _eventbus__WEBPACK_IMPORTED_MODULE_1__["default"].$emit('NavClose',true)
+    }
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (contact);
@@ -4107,6 +4138,20 @@ var exported = content.locals ? content.locals : {};
 
 
 module.exports = exported;
+
+/***/ }),
+
+/***/ "./src/eventbus.js":
+/*!*************************!*\
+  !*** ./src/eventbus.js ***!
+  \*************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+const EventBus = new Vue();
+/* harmony default export */ __webpack_exports__["default"] = (EventBus);
 
 /***/ }),
 

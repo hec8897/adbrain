@@ -1,4 +1,5 @@
 import './default.scss'
+import EventBus from '../eventbus'
 const contact = {
     template: `
     <div class='contact'>
@@ -90,7 +91,10 @@ const contact = {
                     </div>
         </section>
 
-    </div>`
+    </div>`,
+    created(){
+        EventBus.$emit('NavClose',true)
+    }
 }
 
 export default contact;

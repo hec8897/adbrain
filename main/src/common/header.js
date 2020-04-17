@@ -1,5 +1,7 @@
 import './common.scss'
 import MoNav from './mo_nav'
+import EventBus from '../eventbus'
+
 const Header = {
     template:`<header>
                 <mo-nav v-bind:show='Navshow'/>
@@ -65,6 +67,12 @@ const Header = {
                     Navshow:false
                   }
               },
+              mounted(){
+                EventBus.$on('NavClose',()=>{
+                    this.NavClose()
+                    console.log('close')
+                })
+              },
               methods: {
                   NavOpen() {
                       const Target = document.getElementById('nav-icon3')
@@ -77,6 +85,11 @@ const Header = {
                       ?'open ham_btn':
                       'ham_btn'
                   },
+                  NavClose(){
+                    const Target = document.getElementById('nav-icon3')
+                    this.Navshow = false;
+                    Target.className = 'ham_btn'
+                  }
               },
 
               

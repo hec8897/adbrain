@@ -1,4 +1,6 @@
 import './default.scss'
+import EventBus from '../eventbus'
+
 const BoardPage = {
     template: `<div class='board'>
         <section class='section1'>
@@ -52,6 +54,9 @@ const BoardPage = {
             </div>
 
         </section>
-    </div>`
+    </div>`,
+     created(){
+        EventBus.$emit('NavClose',true)
+    }
 }
 export default BoardPage;
