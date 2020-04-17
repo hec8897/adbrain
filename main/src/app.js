@@ -1,5 +1,7 @@
 import './element.scss'
 import Header from './common/header'
+import Footer from './common/footer'
+
 import router from './router'
 
 new Vue({
@@ -7,9 +9,13 @@ new Vue({
     template: `<div>
                     <app-header/>
                     <router-view />
+                    <app-footer />
                 </div>`,
     components:{
-        'app-header':Header
+        'app-header':Header,
+        'app-footer':Footer
+
+
     }            
 
 }).$mount('#app')

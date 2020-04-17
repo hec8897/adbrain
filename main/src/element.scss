@@ -5,6 +5,8 @@ $mainColor:#0061b0;
 *{
     margin: 0px;
     padding: 0px;
+    vertical-align: middle;
+
 }
 
 html,body{
@@ -30,4 +32,16 @@ input,select{
 div.wrap{
     max-width: 1200px;
     margin: 0 auto;
+}
+
+@media (max-width:1200px){
+    div.wrap{
+        max-width: 98%;
+    }
+    
+}
+@media (max-width:960px){
+}
+
+@media (max-width:767px){
 }

@@ -86,6 +86,24 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./src/board/default.scss":
+/*!***************************************************************************************************************!*\
+  !*** ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./src/board/default.scss ***!
+  \***************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "../node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, "div.board ul {\n  margin-top: 40px; }\n  div.board ul li {\n    background-color: #f6f6f6;\n    padding: 25px 50px;\n    margin-bottom: 30px; }\n    div.board ul li img {\n      display: inline-block; }\n    div.board ul li h3 {\n      display: inline-block;\n      font-size: 1.875rem;\n      font-weight: normal;\n      margin-left: 40px; }\n      div.board ul li h3 p {\n        font-size: 1rem;\n        color: #888;\n        font-weight: 400; }\n    div.board ul li div.btn {\n      position: absolute;\n      top: 50%;\n      right: 50px;\n      transform: translateY(-50%);\n      display: inline-block;\n      padding: 15px 50px;\n      background-color: #0061b0;\n      color: #fff;\n      cursor: pointer; }\n\n@media (max-width: 960px) {\n  div.board ul li {\n    padding: 25px 30px; }\n    div.board ul li h3 {\n      font-size: 1.563rem; }\n    div.board ul li div.btn {\n      padding: 15px 40px; } }\n\n@media (max-width: 767px) {\n  div.board ul li {\n    padding: 15px 15px; }\n    div.board ul li img {\n      width: 90px; }\n    div.board ul li h3 {\n      font-size: 1.25rem;\n      margin-left: 10px; }\n    div.board ul li div.btn {\n      padding: 15px 40px; }\n    div.board ul li div.btn {\n      position: initial;\n      text-align: center;\n      transform: translateY(0%);\n      display: block;\n      padding: 15px 50px;\n      margin-top: 20px; } }\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
 /***/ "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./src/common/common.scss":
 /*!***************************************************************************************************************!*\
   !*** ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./src/common/common.scss ***!
@@ -95,9 +113,12 @@
 
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "../node_modules/css-loader/dist/runtime/api.js");
+var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/getUrl.js */ "../node_modules/css-loader/dist/runtime/getUrl.js");
+var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../../image/board-section1.jpg */ "./image/board-section1.jpg");
 exports = ___CSS_LOADER_API_IMPORT___(false);
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-exports.push([module.i, "header {\n  padding: 35px 0px;\n  border-bottom: 1px solid #d0d0d0; }\n  header h1 {\n    display: inline-block;\n    max-width: 155px;\n    cursor: pointer; }\n  header ul {\n    display: inline-block;\n    width: 100%;\n    max-width: 865px;\n    text-align: center; }\n    header ul li {\n      display: inline;\n      font-size: 1.125rem;\n      margin: 0px 25px;\n      font-weight: normal;\n      cursor: pointer; }\n  header div.com_info {\n    display: inline-block; }\n    header div.com_info div.line {\n      width: 1px;\n      height: 30px;\n      background-color: #d0d0d0;\n      vertical-align: middle;\n      display: inline-block;\n      margin: 0px 12px; }\n    header div.com_info div.ham_btn {\n      width: 25px;\n      height: 20px;\n      display: inline-block;\n      vertical-align: middle;\n      cursor: pointer; }\n      header div.com_info div.ham_btn div {\n        width: 100%;\n        height: 2px;\n        background-color: #222;\n        margin-bottom: 6px; }\n        header div.com_info div.ham_btn div:nth-last-child(1) {\n          background-color: #0061b0; }\n", ""]);
+exports.push([module.i, "header {\n  padding: 35px 0px;\n  border-bottom: 1px solid #d0d0d0;\n  text-align: center; }\n  header h1 {\n    display: inline-block;\n    max-width: 155px;\n    cursor: pointer; }\n  header ul {\n    display: inline-block;\n    width: 80%;\n    max-width: 865px;\n    text-align: center; }\n    header ul li {\n      display: inline;\n      font-size: 1.125rem;\n      margin: 0px 25px;\n      font-weight: normal;\n      cursor: pointer; }\n  header div.com_info {\n    max-width: 170px;\n    display: inline-block; }\n    header div.com_info div.line {\n      width: 1px;\n      height: 30px;\n      background-color: #d0d0d0;\n      vertical-align: middle;\n      display: inline-block;\n      margin: 0px 12px; }\n    header div.com_info div.ham_btn {\n      width: 25px;\n      height: 20px;\n      display: inline-block;\n      vertical-align: middle;\n      cursor: pointer; }\n      header div.com_info div.ham_btn div {\n        width: 100%;\n        height: 2px;\n        background-color: #222;\n        margin-bottom: 6px; }\n        header div.com_info div.ham_btn div:nth-last-child(1) {\n          background-color: #0061b0; }\n\n@media (max-width: 1200px) {\n  header ul {\n    width: 60%; }\n    header ul li {\n      margin: 0px 15px;\n      font-size: 16px; }\n  header div.com_info img {\n    width: 90px; }\n  header div.com_info div.line {\n    margin: 0px 5px; }\n  header div.com_info div.ham_btn {\n    width: 23px;\n    height: 20px; } }\n\n@media (max-width: 960px) {\n  header ul {\n    width: 60%; }\n    header ul li {\n      margin: 0px 10px;\n      font-size: 14px; } }\n\n@media (max-width: 767px) {\n  header {\n    text-align: left;\n    padding: 15px 0px; }\n    header h1 {\n      max-width: 120px; }\n      header h1 img {\n        width: 100%;\n        vertical-align: middle; }\n    header ul {\n      display: none; }\n    header div.com_info {\n      position: absolute;\n      right: 2%;\n      top: 50%;\n      transform: translateY(-50%); }\n      header div.com_info img {\n        display: none; }\n      header div.com_info div.line {\n        display: none; } }\n\nfooter {\n  width: 100%;\n  height: 500px;\n  background-color: #666; }\n\n/***********common section1************/\n/***********common section1************/\n/***********common section1************/\nsection.section1 {\n  text-align: center;\n  padding: 150px 0px;\n  background-size: cover;\n  background-position: center;\n  background-repeat: no-repeat; }\n  section.section1 h2 {\n    font-size: 3.375rem;\n    font-weight: bold;\n    color: #fff;\n    text-shadow: 2px 2px 2px #666; }\n\ndiv.board section.section1 {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n\nsection.section2 {\n  padding: 100px 0px; }\n  section.section2 h2 {\n    font-size: 2.813rem;\n    text-align: center;\n    font-weight: normal; }\n\n@media (max-width: 1200px) {\n  section.section1 h2 {\n    font-size: 3.125rem; } }\n\n@media (max-width: 960px) {\n  section.section1 h2 {\n    font-size: 2.125rem; } }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -116,7 +137,7 @@ var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css
 exports = ___CSS_LOADER_API_IMPORT___(false);
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700|Roboto:400,700&display=swap&subset=korean);"]);
 // Module
-exports.push([module.i, "* {\n  margin: 0px;\n  padding: 0px; }\n\nhtml, body {\n  font-size: 16px;\n  font-family: 'Nanum Gothic','Roboto', sans-serif;\n  background-color: #fff; }\n\nhtml, body, ul, ol, li, img, div, span, iframe, a, p, input, textarea, select, i {\n  position: relative;\n  letter-spacing: -0.5px;\n  word-break: keep-all; }\n\na, a:hover, a:active, a:focus {\n  text-decoration: none; }\n\nimg {\n  border: none;\n  width: auto;\n  vertical-align: middle; }\n\nul, ol {\n  list-style: none; }\n\niframe, object, video, embed {\n  position: relative;\n  top: 0;\n  left: 0;\n  max-width: 100%; }\n\ninput, select {\n  outline: none; }\n\ndiv.wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n", ""]);
+exports.push([module.i, "* {\n  margin: 0px;\n  padding: 0px;\n  vertical-align: middle; }\n\nhtml, body {\n  font-size: 16px;\n  font-family: 'Nanum Gothic','Roboto', sans-serif;\n  background-color: #fff; }\n\nhtml, body, ul, ol, li, img, div, span, iframe, a, p, input, textarea, select, i {\n  position: relative;\n  letter-spacing: -0.5px;\n  word-break: keep-all; }\n\na, a:hover, a:active, a:focus {\n  text-decoration: none; }\n\nimg {\n  border: none;\n  width: auto;\n  vertical-align: middle; }\n\nul, ol {\n  list-style: none; }\n\niframe, object, video, embed {\n  position: relative;\n  top: 0;\n  left: 0;\n  max-width: 100%; }\n\ninput, select {\n  outline: none; }\n\ndiv.wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n\n@media (max-width: 1200px) {\n  div.wrap {\n    max-width: 98%; } }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -225,6 +246,51 @@ function toComment(sourceMap) {
   var data = "sourceMappingURL=data:application/json;charset=utf-8;base64,".concat(base64);
   return "/*# ".concat(data, " */");
 }
+
+/***/ }),
+
+/***/ "../node_modules/css-loader/dist/runtime/getUrl.js":
+/*!*********************************************************!*\
+  !*** ../node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+module.exports = function (url, options) {
+  if (!options) {
+    // eslint-disable-next-line no-param-reassign
+    options = {};
+  } // eslint-disable-next-line no-underscore-dangle, no-param-reassign
+
+
+  url = url && url.__esModule ? url.default : url;
+
+  if (typeof url !== 'string') {
+    return url;
+  } // If url is already wrapped in quotes, remove them
+
+
+  if (/^['"].*['"]$/.test(url)) {
+    // eslint-disable-next-line no-param-reassign
+    url = url.slice(1, -1);
+  }
+
+  if (options.hash) {
+    // eslint-disable-next-line no-param-reassign
+    url += options.hash;
+  } // Should url be wrapped?
+  // See https://drafts.csswg.org/css-values-3/#urls
+
+
+  if (/["'() \t\n]/.test(url) || options.needQuotes) {
+    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, '\\n'), "\"");
+  }
+
+  return url;
+};
 
 /***/ }),
 
@@ -3439,6 +3505,19 @@ if (inBrowser && window.Vue) {
 
 /***/ }),
 
+/***/ "./image/board-section1.jpg":
+/*!**********************************!*\
+  !*** ./image/board-section1.jpg ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "image/board-section1.jpg");
+
+/***/ }),
+
 /***/ "./src/app.js":
 /*!********************!*\
   !*** ./src/app.js ***!
@@ -3451,22 +3530,148 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _element_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./element.scss */ "./src/element.scss");
 /* harmony import */ var _element_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_element_scss__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _common_header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./common/header */ "./src/common/header.js");
-/* harmony import */ var _router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./router */ "./src/router.js");
+/* harmony import */ var _common_footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./common/footer */ "./src/common/footer.js");
+/* harmony import */ var _router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./router */ "./src/router.js");
+
+
 
 
 
 
 new Vue({
-    router: _router__WEBPACK_IMPORTED_MODULE_2__["default"],
+    router: _router__WEBPACK_IMPORTED_MODULE_3__["default"],
     template: `<div>
                     <app-header/>
                     <router-view />
+                    <app-footer />
                 </div>`,
     components:{
-        'app-header':_common_header__WEBPACK_IMPORTED_MODULE_1__["default"]
+        'app-header':_common_header__WEBPACK_IMPORTED_MODULE_1__["default"],
+        'app-footer':_common_footer__WEBPACK_IMPORTED_MODULE_2__["default"]
+
+
     }            
 
 }).$mount('#app')
+
+/***/ }),
+
+/***/ "./src/board/default.scss":
+/*!********************************!*\
+  !*** ./src/board/default.scss ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./default.scss */ "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./src/board/default.scss");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+var exported = content.locals ? content.locals : {};
+
+
+
+module.exports = exported;
+
+/***/ }),
+
+/***/ "./src/board/main.js":
+/*!***************************!*\
+  !*** ./src/board/main.js ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _default_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./default.scss */ "./src/board/default.scss");
+/* harmony import */ var _default_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_default_scss__WEBPACK_IMPORTED_MODULE_0__);
+
+const BoardPage = {
+    template: `<div class='board'>
+        <section class='section1'>
+            <h2>DOWNLOAD</h2>
+        </section>
+        <section class='section2'>
+            <div class='wrap'>
+                <h2>자료실</h2>
+                <ul>
+                    <li>
+                        <img src='image/board-section2-li1.png'>
+                        <h3>
+                            <p>COMPANY BRIEF</p>
+                            회사 소개서 다운로드
+                        </h3>
+                        <div class='down_btn btn'>
+                            다운로드
+                        </div>
+                    </li>
+                    <li>
+                        <img src='image/board-section2-li2.png'>
+                        <h3>
+                            <p>BUS ROUTE MAP</p>
+                            회사 보유 매체 노선도
+                        </h3>
+                        <div class='down_btn btn'>
+                            다운로드
+                        </div>
+                    </li>
+                    <li>
+                        <img src='image/board-section2-li3.png'>
+                        <h3>
+                            <p>ADVERTISING SIZE</p>
+                            버스 광고판 사이즈
+                        </h3>
+                        <div class='down_btn btn'>
+                            다운로드
+                        </div>
+                    </li>
+                    <li>
+                        <img src='image/board-section2-li4.png'>
+                        <h3>
+                            <p>YOUTUBE</p>
+                            유튜브 방송보기
+                        </h3>
+                        <div class='down_btn btn'>
+                            바로가기
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </section>
+    </div>`
+}
+/* harmony default export */ __webpack_exports__["default"] = (BoardPage);
+
+/***/ }),
+
+/***/ "./src/case/main.js":
+/*!**************************!*\
+  !*** ./src/case/main.js ***!
+  \**************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+const CasePage = {
+    template:`<div>광고사례</div>`
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (CasePage);
 
 /***/ }),
 
@@ -3498,6 +3703,25 @@ var exported = content.locals ? content.locals : {};
 
 
 module.exports = exported;
+
+/***/ }),
+
+/***/ "./src/common/footer.js":
+/*!******************************!*\
+  !*** ./src/common/footer.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+const Footer = {
+    template:`<footer>
+        123
+    </footer>`
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Footer);
 
 /***/ }),
 
@@ -3539,6 +3763,23 @@ const Header = {
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
+
+/***/ }),
+
+/***/ "./src/contact/main.js":
+/*!*****************************!*\
+  !*** ./src/contact/main.js ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+const contact = {
+    template:`<div>광고문의</div>`
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (contact);
 
 /***/ }),
 
@@ -3600,15 +3841,38 @@ const MainPage = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue-router */ "../node_modules/vue-router/dist/vue-router.esm.js");
 /* harmony import */ var _mainpage_main__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./mainpage/main */ "./src/mainpage/main.js");
+/* harmony import */ var _case_main__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./case/main */ "./src/case/main.js");
+/* harmony import */ var _board_main__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./board/main */ "./src/board/main.js");
+/* harmony import */ var _contact_main__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./contact/main */ "./src/contact/main.js");
+
+
+
 
 
 
 const router = new vue_router__WEBPACK_IMPORTED_MODULE_0__["default"]({
-    routes: [{
+    routes: [
+        {
             path: '/',
             component: _mainpage_main__WEBPACK_IMPORTED_MODULE_1__["default"],
             name: 'main'
-        }]
+        },
+        {
+            path: '/case',
+            component: _case_main__WEBPACK_IMPORTED_MODULE_2__["default"],
+            name: 'case'
+        },
+        {
+            path: '/board',
+            component: _board_main__WEBPACK_IMPORTED_MODULE_3__["default"],
+            name: 'board'
+        },
+        {
+            path: '/contact',
+            component: _contact_main__WEBPACK_IMPORTED_MODULE_4__["default"],
+            name: 'contact'
+        }
+    ]
 })
 
 /* harmony default export */ __webpack_exports__["default"] = (router);
