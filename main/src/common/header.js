@@ -21,7 +21,7 @@ const Header = {
                                 <div class='speech_box'></div>
                                 <li><router-link to='/'>옥외광고</router-link></li>
                                 <li><router-link to='/'>방송광고</router-link></li>
-                                <li><router-link to='/'>온라인 마케틷</router-link></li>
+                                <li><router-link to='/'>온라인 마케팅</router-link></li>
                             </ol>
                         </li>
                         <li>
