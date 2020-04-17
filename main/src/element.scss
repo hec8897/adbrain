@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700|Roboto:400,700&display=swap&subset=korean');
+
+$mainColor:#0061b0;
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html,body{
+    font-size: 16px;
+    font-family: 'Nanum Gothic','Roboto', sans-serif;
+    background-color: #fff;
+}
+
+html,body,ul,ol,li,img,div,span,iframe,a,p,input,textarea,select,i{
+    position: relative;
+    letter-spacing: -0.5px;
+    word-break: keep-all;
+}
+
+a,a:hover,a:active,a:focus{text-decoration:none;}
+img{border:none; width:auto; vertical-align: middle;}
+ul,ol{list-style:none;}
+iframe,object,video,embed{position:relative; top:0; left:0; max-width:100%}
+input,select{
+    outline: none;
+}
+
+div.wrap{
+    max-width: 1200px;
+    margin: 0 auto;
+}
