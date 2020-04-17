@@ -1,0 +1,45 @@
+div.contact{
+    div.class_select{
+        div.selects{
+            display: inline-block;
+            width: 70%;
+        }
+        div.checkbox{
+            margin-right: 20px;
+            display: inline-block;
+            label{
+                font-size: 14px;
+            }
+        }
+    }
+    div.sub_btn{
+        max-width: 200px;
+        height: 50px;
+        line-height: 50px;
+        margin: 50px auto;
+        text-align: center;
+        -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.1);
+        -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.1);
+        box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.1);
+    }
+}
+
+@media (max-width:1200px){
+    div.contact div.class_select div.checkbox{
+        margin-bottom: 10px;
+    }
+    
+}
+@media (max-width:960px){
+}
+
+@media (max-width:767px){
+    .form_area input[type=text], select,textarea{
+        width: 60%;
+    }
+   
+    div.contact div.class_select div.checkbox{
+        width: 40%;
+    }
+	
+}

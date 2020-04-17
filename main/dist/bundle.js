@@ -115,10 +115,30 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "../node_modules/css-loader/dist/runtime/api.js");
 var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/getUrl.js */ "../node_modules/css-loader/dist/runtime/getUrl.js");
 var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../../image/board-section1.jpg */ "./image/board-section1.jpg");
+var ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(/*! ../../image/contact-section1.jpg */ "./image/contact-section1.jpg");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
 // Module
-exports.push([module.i, "header {\n  padding: 35px 0px;\n  border-bottom: 1px solid #d0d0d0;\n  text-align: center; }\n  header h1 {\n    display: inline-block;\n    max-width: 155px;\n    cursor: pointer; }\n  header ul {\n    display: inline-block;\n    width: 80%;\n    max-width: 865px;\n    text-align: center; }\n    header ul li {\n      display: inline;\n      font-size: 1.125rem;\n      margin: 0px 25px;\n      font-weight: normal;\n      cursor: pointer; }\n  header div.com_info {\n    max-width: 170px;\n    display: inline-block; }\n    header div.com_info div.line {\n      width: 1px;\n      height: 30px;\n      background-color: #d0d0d0;\n      vertical-align: middle;\n      display: inline-block;\n      margin: 0px 12px; }\n    header div.com_info div.ham_btn {\n      width: 25px;\n      height: 20px;\n      display: inline-block;\n      vertical-align: middle;\n      cursor: pointer; }\n      header div.com_info div.ham_btn div {\n        width: 100%;\n        height: 2px;\n        background-color: #222;\n        margin-bottom: 6px; }\n        header div.com_info div.ham_btn div:nth-last-child(1) {\n          background-color: #0061b0; }\n\n@media (max-width: 1200px) {\n  header ul {\n    width: 60%; }\n    header ul li {\n      margin: 0px 15px;\n      font-size: 16px; }\n  header div.com_info img {\n    width: 90px; }\n  header div.com_info div.line {\n    margin: 0px 5px; }\n  header div.com_info div.ham_btn {\n    width: 23px;\n    height: 20px; } }\n\n@media (max-width: 960px) {\n  header ul {\n    width: 60%; }\n    header ul li {\n      margin: 0px 10px;\n      font-size: 14px; } }\n\n@media (max-width: 767px) {\n  header {\n    text-align: left;\n    padding: 15px 0px; }\n    header h1 {\n      max-width: 120px; }\n      header h1 img {\n        width: 100%;\n        vertical-align: middle; }\n    header ul {\n      display: none; }\n    header div.com_info {\n      position: absolute;\n      right: 2%;\n      top: 50%;\n      transform: translateY(-50%); }\n      header div.com_info img {\n        display: none; }\n      header div.com_info div.line {\n        display: none; } }\n\nfooter {\n  width: 100%;\n  height: 500px;\n  background-color: #666; }\n\n/***********common section1************/\n/***********common section1************/\n/***********common section1************/\nsection.section1 {\n  text-align: center;\n  padding: 150px 0px;\n  background-size: cover;\n  background-position: center;\n  background-repeat: no-repeat; }\n  section.section1 h2 {\n    font-size: 3.375rem;\n    font-weight: bold;\n    color: #fff;\n    text-shadow: 2px 2px 2px #666; }\n\ndiv.board section.section1 {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n\nsection.section2 {\n  padding: 100px 0px; }\n  section.section2 h2 {\n    font-size: 2.813rem;\n    text-align: center;\n    font-weight: normal; }\n\n@media (max-width: 1200px) {\n  section.section1 h2 {\n    font-size: 3.125rem; } }\n\n@media (max-width: 960px) {\n  section.section1 h2 {\n    font-size: 2.125rem; } }\n", ""]);
+exports.push([module.i, "header {\n  padding: 35px 0px;\n  border-bottom: 1px solid #d0d0d0;\n  text-align: center; }\n  header h1 {\n    display: inline-block;\n    max-width: 155px;\n    cursor: pointer; }\n  header ul {\n    display: inline-block;\n    width: 80%;\n    max-width: 865px;\n    text-align: center; }\n    header ul li {\n      display: inline;\n      font-size: 1.125rem;\n      margin: 0px 25px;\n      font-weight: normal;\n      cursor: pointer; }\n  header div.com_info {\n    max-width: 170px;\n    display: inline-block; }\n    header div.com_info div.line {\n      width: 1px;\n      height: 30px;\n      background-color: #d0d0d0;\n      vertical-align: middle;\n      display: inline-block;\n      margin: 0px 12px; }\n    header div.com_info div.ham_btn {\n      width: 25px;\n      height: 20px;\n      display: inline-block;\n      vertical-align: middle;\n      cursor: pointer; }\n      header div.com_info div.ham_btn div {\n        width: 100%;\n        height: 2px;\n        background-color: #222;\n        margin-bottom: 6px; }\n        header div.com_info div.ham_btn div:nth-last-child(1) {\n          background-color: #0061b0; }\n\n@media (max-width: 1200px) {\n  header ul {\n    width: 60%; }\n    header ul li {\n      margin: 0px 15px;\n      font-size: 16px; }\n  header div.com_info img {\n    width: 90px; }\n  header div.com_info div.line {\n    margin: 0px 5px; }\n  header div.com_info div.ham_btn {\n    width: 23px;\n    height: 20px; } }\n\n@media (max-width: 960px) {\n  header ul {\n    width: 60%; }\n    header ul li {\n      margin: 0px 10px;\n      font-size: 14px; } }\n\n@media (max-width: 767px) {\n  header {\n    text-align: left;\n    padding: 15px 0px; }\n    header h1 {\n      max-width: 120px; }\n      header h1 img {\n        width: 100%;\n        vertical-align: middle; }\n    header ul {\n      display: none; }\n    header div.com_info {\n      position: absolute;\n      right: 2%;\n      top: 50%;\n      transform: translateY(-50%); }\n      header div.com_info img {\n        display: none; }\n      header div.com_info div.line {\n        display: none; } }\n\nfooter {\n  width: 100%;\n  height: 500px;\n  background-color: #666; }\n\n/***********common section1************/\n/***********common section1************/\n/***********common section1************/\nsection.section1 {\n  text-align: center;\n  padding: 150px 0px;\n  background-size: cover;\n  background-position: center;\n  background-repeat: no-repeat; }\n  section.section1 h2 {\n    font-size: 3.375rem;\n    font-weight: bold;\n    color: #fff;\n    text-shadow: 2px 2px 2px #666; }\n\ndiv.board section.section1 {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n\ndiv.contact section.section1 {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + "); }\n\nsection.section2 {\n  padding: 100px 0px; }\n  section.section2 h2 {\n    font-size: 2.813rem;\n    text-align: center;\n    font-weight: normal; }\n\n@media (max-width: 1200px) {\n  section.section1 h2 {\n    font-size: 3.125rem; } }\n\n@media (max-width: 960px) {\n  section.section1 h2 {\n    font-size: 2.125rem; }\n  section.section2 {\n    padding: 50px 0px; }\n    section.section2 h2 {\n      font-size: 30px; } }\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./src/contact/default.scss":
+/*!*****************************************************************************************************************!*\
+  !*** ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./src/contact/default.scss ***!
+  \*****************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "../node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, "div.contact div.class_select div.selects {\n  display: inline-block;\n  width: 70%; }\n\ndiv.contact div.class_select div.checkbox {\n  margin-right: 20px;\n  display: inline-block; }\n  div.contact div.class_select div.checkbox label {\n    font-size: 14px; }\n\ndiv.contact div.sub_btn {\n  max-width: 200px;\n  height: 50px;\n  line-height: 50px;\n  margin: 50px auto;\n  text-align: center;\n  -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.1);\n  -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.1);\n  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.1); }\n\n@media (max-width: 1200px) {\n  div.contact div.class_select div.checkbox {\n    margin-bottom: 10px; } }\n\n@media (max-width: 767px) {\n  .form_area input[type=text], select, textarea {\n    width: 60%; }\n  div.contact div.class_select div.checkbox {\n    width: 40%; } }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -134,10 +154,17 @@ module.exports = exports;
 
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "../node_modules/css-loader/dist/runtime/api.js");
+var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/getUrl.js */ "../node_modules/css-loader/dist/runtime/getUrl.js");
+var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../image/arrow_b.png */ "./image/arrow_b.png");
+var ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(/*! ../image/arrow_t.png */ "./image/arrow_t.png");
+var ___CSS_LOADER_URL_IMPORT_2___ = __webpack_require__(/*! ../image/icon_chk.png */ "./image/icon_chk.png");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700|Roboto:400,700&display=swap&subset=korean);"]);
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
+var ___CSS_LOADER_URL_REPLACEMENT_2___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_2___);
 // Module
-exports.push([module.i, "* {\n  margin: 0px;\n  padding: 0px;\n  vertical-align: middle; }\n\nhtml, body {\n  font-size: 16px;\n  font-family: 'Nanum Gothic','Roboto', sans-serif;\n  background-color: #fff; }\n\nhtml, body, ul, ol, li, img, div, span, iframe, a, p, input, textarea, select, i {\n  position: relative;\n  letter-spacing: -0.5px;\n  word-break: keep-all; }\n\na, a:hover, a:active, a:focus {\n  text-decoration: none; }\n\nimg {\n  border: none;\n  width: auto;\n  vertical-align: middle; }\n\nul, ol {\n  list-style: none; }\n\niframe, object, video, embed {\n  position: relative;\n  top: 0;\n  left: 0;\n  max-width: 100%; }\n\ninput, select {\n  outline: none; }\n\ndiv.wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n\n@media (max-width: 1200px) {\n  div.wrap {\n    max-width: 98%; } }\n", ""]);
+exports.push([module.i, "* {\n  margin: 0px;\n  padding: 0px;\n  vertical-align: middle; }\n\nhtml, body {\n  font-size: 16px;\n  font-family: 'Nanum Gothic','Roboto', sans-serif;\n  background-color: #fff; }\n\nhtml, body, ul, ol, li, img, div, span, iframe, a, p, input, textarea, select, i {\n  position: relative;\n  letter-spacing: -0.5px;\n  word-break: keep-all; }\n\na, a:hover, a:active, a:focus {\n  text-decoration: none; }\n\nimg {\n  border: none;\n  width: auto;\n  vertical-align: middle; }\n\nul, ol {\n  list-style: none; }\n\niframe, object, video, embed {\n  position: relative;\n  top: 0;\n  left: 0;\n  max-width: 100%; }\n\ninput, select {\n  outline: none; }\n\ninput {\n  display: block;\n  height: 30px;\n  padding: 0 10px;\n  line-height: 30px;\n  border: 1px solid #e0e0e0;\n  outline: none;\n  transition: all 0.2s ease; }\n\ntextarea {\n  padding: 10px;\n  border: 1px solid #e0e0e0;\n  outline: none;\n  transition: all 0.2s ease; }\n\ninput:focus, select:focus, textarea:focus {\n  border: 1px solid #999;\n  background: #f6f6f6;\n  transition: all 0.2s ease; }\n\nselect::-ms-expand {\n  display: none; }\n\nselect {\n  position: relative;\n  display: block;\n  height: 30px;\n  font-weight: 400;\n  box-sizing: border-box;\n  padding: 0 5px;\n  border: 1px solid #e0e0e0;\n  border-radius: 0;\n  outline: none;\n  transition: all 0.2s ease;\n  background: #fff url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") no-repeat right;\n  -webkit-appearance: none;\n  -moz-appearance: none; }\n\nselect:focus {\n  background: #fff url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") no-repeat right;\n  border: 1px solid #999; }\n\n.privacy {\n  max-width: 1200px;\n  margin: 0 auto;\n  margin-top: 50px; }\n\n.p_box {\n  width: 100%;\n  height: 150px;\n  border: 1px solid #d9d9d9;\n  background: #f9f9f9;\n  padding: 20px;\n  box-sizing: border-box;\n  overflow: hidden;\n  overflow-y: scroll; }\n\n.privacy p {\n  font-size: 14px;\n  margin-bottom: 20px; }\n\n.privacy ol {\n  list-style: decimal;\n  margin-left: 10px; }\n\n.privacy li {\n  font-size: 13px;\n  color: #666;\n  line-height: 20px;\n  margin-bottom: 10px; }\n\n.privacy .checkbox {\n  margin-top: 10px; }\n\nlabel {\n  font-size: 1rem; }\n\n/* Checkbox Setting */\n.checkbox.checkbox-css {\n  position: relative; }\n\n.checkbox.checkbox-css.checkbox-inline {\n  padding-left: 0; }\n\n.checkbox.checkbox-css label {\n  padding-left: 25px;\n  min-height: 20px;\n  margin-top: 0px;\n  margin-bottom: 0;\n  cursor: pointer;\n  display: inline-block; }\n\n.checkbox.checkbox-css.light label:before {\n  content: '';\n  position: absolute;\n  left: 0;\n  top: 8px;\n  width: 18px;\n  height: 18px;\n  border: 1px solid rgba(1, 1, 1, 0.3); }\n\n.checkbox.checkbox-css label:before {\n  content: '';\n  position: absolute;\n  left: 0;\n  top: 8px;\n  width: 18px;\n  height: 18px;\n  border: 1px solid #c0c0c0; }\n\n.checkbox.checkbox-css input {\n  display: none; }\n\n.checkbox.checkbox-css input:checked + label:after {\n  content: '\\e876';\n  position: absolute;\n  top: 10px;\n  left: 4px;\n  font-family: 'Material Icons';\n  font-size: 14px;\n  font-weight: 600;\n  color: #fff;\n  line-height: 14px;\n  width: 14px;\n  text-align: center; }\n\n.checkbox.checkbox-css input:checked + label:before {\n  background: #348fe2;\n  border-color: #348fe2; }\n\n.checkbox.checkbox-css input:checked + label {\n  color: #348fe2;\n  font-weight: 700; }\n\n.checkbox.checkbox-css.checkbox-success input:checked + label:before {\n  background: #00acac;\n  border-color: #00acac; }\n\n.checkbox.checkbox-css.checkbox-success input:checked + label {\n  color: #00acac;\n  font-weight: 700; }\n\n.checkbox.checkbox-css.checkbox-info input:checked + label:before {\n  background: #49b6d6;\n  border-color: #49b6d6; }\n\n.checkbox.checkbox-css.checkbox-info input:checked + label {\n  color: #49b6d6;\n  font-weight: 700; }\n\n.checkbox.checkbox-css.checkbox-danger input:checked + label:before {\n  background: #f4514a;\n  border-color: #f4514a; }\n\n.checkbox.checkbox-css.checkbox-danger input:checked + label {\n  color: #f4514a;\n  font-weight: 700; }\n\n.checkbox.checkbox-css.checkbox-warning input:checked + label:before {\n  background: #0061b0;\n  border-color: #0061b0; }\n\n.checkbox.checkbox-css.checkbox-warning input:checked + label {\n  color: #0061b0;\n  font-weight: 700; }\n\n.checkbox.checkbox-css.checkbox-inverse input:checked + label:before {\n  background: #2d353c;\n  border-color: #2d353c; }\n\n.checkbox.checkbox-css.checkbox-inverse input:checked + label {\n  color: #2d353c;\n  font-weight: 700; }\n\n.checkbox {\n  position: relative; }\n\n.checkbox input {\n  display: none; }\n\n.checkbox label {\n  padding-left: 30px;\n  min-height: 20px;\n  margin-top: 4px;\n  margin-bottom: 0;\n  cursor: pointer;\n  display: inline-block; }\n\n.checkbox label:before {\n  content: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 25px;\n  height: 25px;\n  background: #d9d9d9; }\n\n.checkbox input:checked + label:after {\n  content: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n  position: absolute;\n  top: 0;\n  left: 0; }\n\n.checkbox input:checked + label:before {\n  background: #0061b0; }\n\n.checkbox input:checked + label {\n  color: #0061b0; }\n\n.form_area {\n  max-width: 1200px;\n  margin: 0 auto;\n  margin-top: 50px;\n  border-top: 2px solid #444;\n  border-bottom: 1px solid #444; }\n\n.form_area input[type=text], select {\n  display: inline-block;\n  width: 40%; }\n\n.form_area .form_select > div {\n  display: inline-block;\n  width: 70%;\n  text-align: center; }\n\n.form_area .form_select > div div {\n  width: 30%;\n  display: inline-block;\n  text-align: left;\n  box-sizing: border-box; }\n\n.form_area .form_select > div div:nth-child(1) {\n  float: left; }\n\n.form_area .form_select > div div:nth-child(3) {\n  float: right; }\n\n.form_area .radio label {\n  display: block;\n  width: 100%;\n  height: 40px;\n  line-height: 40px;\n  border: 1px solid #d9d9d9;\n  box-sizing: border-box; }\n\n.form_area > div {\n  display: block;\n  width: 100%;\n  padding: 10px 0;\n  border-bottom: 1px solid #f0f0f0; }\n\n.form_area > div > p {\n  display: inline-block;\n  width: 20%;\n  font-size: 16px;\n  padding-left: 20px;\n  vertical-align: middle; }\n\n.form_area > div:last-child {\n  border-bottom: 0; }\n\n.form_area .txt p {\n  vertical-align: top; }\n\n.form_area .wid70 input {\n  width: 70%; }\n\n.form_area .wid20 input {\n  width: 20%; }\n\ntextarea {\n  position: relative;\n  width: 70%;\n  height: 200px;\n  border: 1px solid #d9d9d9;\n  padding: 10px;\n  transition: all 0.3s ease;\n  resize: none; }\n\ntextarea:focus {\n  border: 1px solid #666;\n  background: #f9f9f9; }\n\ndiv.wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n\ndiv.btn {\n  cursor: pointer;\n  color: #fff;\n  background-color: #0061b0; }\n\n@media (max-width: 1200px) {\n  div.wrap {\n    max-width: 98%; } }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -3505,6 +3532,32 @@ if (inBrowser && window.Vue) {
 
 /***/ }),
 
+/***/ "./image/arrow_b.png":
+/*!***************************!*\
+  !*** ./image/arrow_b.png ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "image/arrow_b.png");
+
+/***/ }),
+
+/***/ "./image/arrow_t.png":
+/*!***************************!*\
+  !*** ./image/arrow_t.png ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "image/arrow_t.png");
+
+/***/ }),
+
 /***/ "./image/board-section1.jpg":
 /*!**********************************!*\
   !*** ./image/board-section1.jpg ***!
@@ -3515,6 +3568,32 @@ if (inBrowser && window.Vue) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "image/board-section1.jpg");
+
+/***/ }),
+
+/***/ "./image/contact-section1.jpg":
+/*!************************************!*\
+  !*** ./image/contact-section1.jpg ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "image/contact-section1.jpg");
+
+/***/ }),
+
+/***/ "./image/icon_chk.png":
+/*!****************************!*\
+  !*** ./image/icon_chk.png ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "image/icon_chk.png");
 
 /***/ }),
 
@@ -3766,6 +3845,37 @@ const Header = {
 
 /***/ }),
 
+/***/ "./src/contact/default.scss":
+/*!**********************************!*\
+  !*** ./src/contact/default.scss ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./default.scss */ "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./src/contact/default.scss");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+var exported = content.locals ? content.locals : {};
+
+
+
+module.exports = exported;
+
+/***/ }),
+
 /***/ "./src/contact/main.js":
 /*!*****************************!*\
   !*** ./src/contact/main.js ***!
@@ -3775,8 +3885,101 @@ const Header = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _default_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./default.scss */ "./src/contact/default.scss");
+/* harmony import */ var _default_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_default_scss__WEBPACK_IMPORTED_MODULE_0__);
+
 const contact = {
-    template:`<div>광고문의</div>`
+    template: `
+    <div class='contact'>
+        <section class='section1'>
+            <h2>CONTACT</h2>
+        </section>
+        <section class='section2'>
+            <div class='wrap'>
+            <h2>광고 문의</h2>
+            <div class="privacy">
+                        <div class="p_box">
+                            <p>금강이앤씨는 개인정보를 중요시 하며 정보통신망 이용촉진 및 정보보호에 관한 법률을 준수하고 있습니다.</p>
+                            <ol>
+                                <li>
+                                    개인정보의 수집목적 <br>
+                                    회사는 수집한 개인정보를 상담 문의 목적을 위해 활용합니다.
+                                </li>
+                                <li>
+                                    수집하는 개인정보 항목 <br>
+                                    회사는 상담, 서비스 신청 등을 위해 아래와 같은 개인정보를 수집하고 있습니다. <br>
+                                    수집항목 : 이름, 이메일주소, 휴대폰번호, 전화번호, 그 외 개인이 직접 입력한 내용
+                                </li>
+                                <li>
+                                    수집하는 개인정보의 처리 및 보존기간<br>
+                                    회사는 개인정보의 처리목적이 달성될 때까지 개인정보를 보유하고, 목적이 달성된 후에는 지체없이 파기합니다. <br>
+                                    다만, 사전동의를 받은 경우 또는 관련 법규에 의하여 보존 필요성이 있는 경우에는 보존할 수 있습니다.
+                                </li>
+                                <li>
+                                    동의 거부 권리 및 동의 거부 시 불이익<br>
+                                    고객은 본 개인정보 수집 및 이용 동의를 거부할 권리가 있습니다. 다만, 동의 거부 시 서비스 이용에 제한이 있을 수있습니다.
+                                </li>
+                            </ol>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" id="checkbox_1" value="" />
+                            <label for="checkbox_1">개인정보수집 및 이용에 동의합니다.</label>
+                        </div>
+                        
+                    </div>
+
+                    <div class="form_area">
+                        <div>
+                            <p>이름</p>
+                            <input type="text" placeholder="이름을 입력하세요" id='reqname'>
+                        </div>
+
+                        <div>
+                            <p>이메일</p>
+                            <input name="" type="text" placeholder="이메일을 입력하세요" id='reqphone'>
+                        </div>
+                        <div>
+                            <p>연락처</p>
+                            <input name="" type="text" placeholder="전화번호를 입력하세요" id='reqphone'>
+                        </div>
+
+                        <div class='class_select'>
+                            <p>분류</p>
+                            <div class='selects'>
+                            <div class="checkbox">
+                                <input type="checkbox" id="class_1" value="" />
+                                <label for="class_1">버스외부광고</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" id="class_2" value="" />
+                                <label for="class_2">버스내부광고</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" id="class_3" value="" />
+                                <label for="class_3">지하철광고</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" id="class_4" value="" />
+                                <label for="class_4">옥탑광고</label>
+                            </div>
+                            <div class="checkbox">
+                                <input type="checkbox" id="class_5" value="" />
+                                <label for="class_5">기타광고</label>
+                            </div>
+                        </div>
+                        </div>
+
+                        <div class="txt">
+                            <p>문의내용</p>
+                            <textarea name="" placeholder="내용을 입력하세요." id='reqmemo'></textarea>
+                        </div>
+                    </div>
+
+                    <div class='btn sub_btn'>광고문의 신청하기</div>
+                    </div>
+        </section>
+
+    </div>`
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (contact);
