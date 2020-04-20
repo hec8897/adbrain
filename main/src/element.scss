@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700|Roboto:400,700&display=swap&subset=korean');
-
-$mainColor:#0061b0;
+@import './define.scss';
 
 *{
     margin: 0px;
@@ -12,7 +11,8 @@ $mainColor:#0061b0;
 html,body{
     font-size: 16px;
     font-family: 'Nanum Gothic','Roboto', sans-serif;
-    background-color: #fff;
+	background-color: $white;
+	color:$fontColor;
 }
 
 html,body,ul,ol,li,img,div,span,iframe,a,p,input,textarea,select,i{
@@ -35,12 +35,12 @@ select::-ms-expand{display:none}
 select{
     position:relative; display:block; height:30px; font-weight:400; box-sizing:border-box;
     padding:0 5px; border:1px solid #e0e0e0; border-radius:0; outline:none; transition:all 0.2s ease;
-    background:#fff url('../image/arrow_b.png') no-repeat right;
+    background:$white url('../image/arrow_b.png') no-repeat right;
     -webkit-appearance:none;
     -moz-appearance:none;
 }
 select:focus{
-    background:#fff url('../image/arrow_t.png') no-repeat right;
+    background:$white url('../image/arrow_t.png') no-repeat right;
     border:1px solid #999;
 }
 
@@ -87,7 +87,7 @@ label{font-size: 1rem;}
     font-family:'Material Icons';
 	font-size: 14px;
     font-weight:600;	
-	color: #fff;
+	color: $white;
 	line-height: 14px;
 	width: 14px;
 	text-align: center;
@@ -147,13 +147,10 @@ textarea{position:relative; width:70%; height:200px; border:1px solid #d9d9d9; p
 textarea:focus{border:1px solid #666; background:#f9f9f9}
 
 div.wrap{
-    max-width: 1200px;
-    margin: 0 auto;
+	@include wrap1200;
 }
 div.btn{
-	cursor: pointer;
-	color: #fff;
-	background-color: #0061b0;
+	@include btnDefault;
 }
 
 @media (max-width:1200px){

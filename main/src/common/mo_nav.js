@@ -1,3 +1,4 @@
+import './mo-nav.scss'
 const MoNav = {
     props:['show'],
     template:`

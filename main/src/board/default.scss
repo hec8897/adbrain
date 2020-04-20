@@ -1,3 +1,6 @@
+@import '../common.scss';
+
+
 div.board{
     ul{
         margin-top: 40px;
@@ -16,20 +19,16 @@ div.board{
 
                 p{
                     font-size: 1rem;
-                    color: #888;
+                    color: $fontColorLight;
                     font-weight: 400;
                 }
             }
-            div.btn{
+            div.down_btn{
                 position: absolute;
                 top: 50%;
                 right: 50px;
                 transform: translateY(-50%);
                 display: inline-block;
-                padding: 15px 50px;
-                background-color: #0061b0;
-                color: #fff;
-                cursor: pointer;
             }
         }
     }

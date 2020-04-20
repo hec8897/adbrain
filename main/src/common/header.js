@@ -1,4 +1,4 @@
-import './common.scss'
+import './header.scss'
 import MoNav from './mo_nav'
 import EventBus from '../eventbus'
 

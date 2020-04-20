@@ -1,0 +1,30 @@
+$mainColor:#0061b0;
+$fontColor:#222;
+$fontColorLight:#888;
+$ImgRoute:"../../image/";
+$white:#fff;
+
+@mixin wrap1200 {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@mixin btnDefault {
+    padding: 15px 50px;
+    cursor: pointer;
+	color: $white;
+    background-color: $mainColor;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.1);
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.1);
+    transition: .1s ease-in;
+    &:hover{
+        background-color:lighten($color: $mainColor, $amount: 5%);
+    }
+}
+
+@mixin BackGroundOption($size) {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: $size;
+}

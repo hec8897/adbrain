@@ -1,3 +1,4 @@
+@import '../define.scss';
 header{
     padding: 35px 0px;
     border-bottom: 1px solid #d0d0d0;
@@ -29,7 +30,7 @@ header{
                 left: 50%;
                 margin-top: 0px;
                 transform: translateX(-50%);
-                background-color: #fff;
+                background-color: $white;
                 border-radius: 10px;
                 -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);
                 -moz-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.3);
@@ -39,7 +40,7 @@ header{
                 transition: .2s ease-in-out;
                 padding-bottom: 15px;
                 div.speech_box{
-                    background-color: #fff;
+                    background-color: $white;
                     width: 18px;
                     height: 18px;
                     margin: 0 auto;
@@ -58,13 +59,12 @@ header{
                     box-sizing: border-box;
                     text-align: center;
                     a{
-                        color: #666;
-
+                        color: $fontColorLight;
                     }
                 }
             }
             &:hover{
-                color: #0061b0;
+                color: $mainColor;
                 font-weight: bold;
             }
             &:hover ol{
@@ -75,7 +75,7 @@ header{
          
         }
         span.router-link-active{
-            color: #0061b0;
+            color: $mainColor;
             font-weight: bold;
         }
     }
@@ -128,10 +128,9 @@ header{
                 &:nth-child(1){
                     top: 8px;
                 }
-                &:nth-child(2),
-                &:nth-child(3){
+                &:nth-child(2),&:nth-child(3){
                     top: 16px;
-                    background-color: #0061b0;
+                    background-color: $mainColor;
                 }
                 &:nth-child(4){
                     top: 24px;
@@ -180,7 +179,7 @@ header{
                 background-color: #222;
                 margin-bottom: 6px;
                 &:nth-last-child(1){
-                    background-color: #0061b0;
+                    background-color: $mainColor;
                 }
             }
         }
@@ -189,22 +188,6 @@ header{
           
     }
 }
-
-div.mo_nav{
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    background-color: #fff;
-    z-index: 99;
-    top: 67px;
-}
-
-.fade-enter-active {
-    transition: opacity .1s;
-  }
-  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
-    opacity: 0;
-  }
 
 @media (max-width:1200px){
     header{
@@ -297,71 +280,3 @@ div.mo_nav{
 
     }
 }
-
-
-footer{
-    width: 100%;
-    height: 500px;
-    background-color: #666;
-}
-
-/***********common section1************/
-/***********common section1************/
-/***********common section1************/
-
-section.section1{
-    text-align: center;
-    padding: 150px 0px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;;
-    h2{
-        font-size: 3.375rem;
-        font-weight: bold;
-        color: #fff;
-        text-shadow: 2px 2px 2px #666;
-    }
-}
-
-div.board{
-    section.section1{
-        background-image: url(../../image/board-section1.jpg);
-    }
-}
-div.contact{
-    section.section1{
-        background-image: url(../../image/contact-section1.jpg);
-    }
-}
-
-section.section2{
-    padding: 100px 0px;
-    h2{
-        font-size: 2.813rem;
-        text-align: center;
-        font-weight: normal;
-    }
-}
-
-@media (max-width:1200px){
-    section.section1{
-        h2{
-            font-size: 3.125rem;
-        }
-    }
-    
-}
-@media (max-width:960px){
-    section.section1{
-        h2{
-            font-size: 2.125rem;
-        }
-    }
-    section.section2{
-        padding: 50px 0px;
-        h2{
-            font-size: 30px;
-        }
-    }
-}
-

@@ -1,0 +1,60 @@
+@import '../define.scss';
+
+/***********common sub section1************/
+/***********common sub section1************/
+
+section.section1{
+    text-align: center;
+    padding: 150px 0px;
+    @include BackGroundOption(cover);
+    
+    h2{
+        font-size: 3.375rem;
+        font-weight: bold;
+        color: $white;
+        text-shadow: 2px 2px 2px #666;
+    }
+}
+
+div.board{
+    section.section1{
+        background-image: url($ImgRoute + "board-section1.jpg");
+    }
+}
+div.contact{
+    section.section1{
+        background-image: url($ImgRoute + "contact-section1.jpg");
+    }
+}
+
+section.section2{
+    padding: 100px 0px;
+    h2{
+        font-size: 2.813rem;
+        text-align: center;
+        font-weight: normal;
+    }
+}
+
+@media (max-width:1200px){
+    section.section1{
+        h2{
+            font-size: 3.125rem;
+        }
+    }
+    
+}
+@media (max-width:960px){
+    section.section1{
+        h2{
+            font-size: 2.125rem;
+        }
+    }
+    section.section2{
+        padding: 50px 0px;
+        h2{
+            font-size: 30px;
+        }
+    }
+}
+

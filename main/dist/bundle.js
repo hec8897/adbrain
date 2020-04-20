@@ -95,24 +95,6 @@
 
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "../node_modules/css-loader/dist/runtime/api.js");
-exports = ___CSS_LOADER_API_IMPORT___(false);
-// Module
-exports.push([module.i, "div.board ul {\n  margin-top: 40px; }\n  div.board ul li {\n    background-color: #f6f6f6;\n    padding: 25px 50px;\n    margin-bottom: 30px; }\n    div.board ul li img {\n      display: inline-block; }\n    div.board ul li h3 {\n      display: inline-block;\n      font-size: 1.875rem;\n      font-weight: normal;\n      margin-left: 40px; }\n      div.board ul li h3 p {\n        font-size: 1rem;\n        color: #888;\n        font-weight: 400; }\n    div.board ul li div.btn {\n      position: absolute;\n      top: 50%;\n      right: 50px;\n      transform: translateY(-50%);\n      display: inline-block;\n      padding: 15px 50px;\n      background-color: #0061b0;\n      color: #fff;\n      cursor: pointer; }\n\n@media (max-width: 960px) {\n  div.board ul li {\n    padding: 25px 30px; }\n    div.board ul li h3 {\n      font-size: 1.563rem; }\n    div.board ul li div.btn {\n      padding: 15px 40px; } }\n\n@media (max-width: 767px) {\n  div.board ul li {\n    padding: 15px 15px; }\n    div.board ul li img {\n      width: 90px; }\n    div.board ul li h3 {\n      font-size: 1.25rem;\n      margin-left: 10px; }\n    div.board ul li div.btn {\n      padding: 15px 40px; }\n    div.board ul li div.btn {\n      position: initial;\n      text-align: center;\n      transform: translateY(0%);\n      display: block;\n      padding: 15px 50px;\n      margin-top: 20px; } }\n", ""]);
-// Exports
-module.exports = exports;
-
-
-/***/ }),
-
-/***/ "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./src/common/common.scss":
-/*!***************************************************************************************************************!*\
-  !*** ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./src/common/common.scss ***!
-  \***************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-// Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "../node_modules/css-loader/dist/runtime/api.js");
 var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/getUrl.js */ "../node_modules/css-loader/dist/runtime/getUrl.js");
 var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../../image/board-section1.jpg */ "./image/board-section1.jpg");
 var ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(/*! ../../image/contact-section1.jpg */ "./image/contact-section1.jpg");
@@ -120,7 +102,61 @@ exports = ___CSS_LOADER_API_IMPORT___(false);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
 // Module
-exports.push([module.i, "header {\n  padding: 35px 0px;\n  border-bottom: 1px solid #d0d0d0;\n  text-align: center;\n  position: relative;\n  z-index: 100; }\n  header h1 {\n    display: inline-block;\n    max-width: 155px;\n    cursor: pointer; }\n  header ul.head_ul {\n    display: inline-block;\n    width: 80%;\n    max-width: 865px;\n    text-align: center; }\n    header ul.head_ul li {\n      display: inline;\n      font-size: 1.125rem;\n      margin: 0px 25px;\n      font-weight: normal;\n      cursor: pointer; }\n      header ul.head_ul li ol {\n        min-width: 150px;\n        height: auto;\n        border: 1px solid #d0d0d0;\n        z-index: 90;\n        position: absolute;\n        left: 50%;\n        margin-top: 0px;\n        transform: translateX(-50%);\n        background-color: #fff;\n        border-radius: 10px;\n        -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);\n        -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);\n        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);\n        opacity: 0.0;\n        visibility: hidden;\n        transition: .2s ease-in-out;\n        padding-bottom: 15px; }\n        header ul.head_ul li ol div.speech_box {\n          background-color: #fff;\n          width: 18px;\n          height: 18px;\n          margin: 0 auto;\n          margin-top: -10px;\n          transform: rotate(45deg);\n          border-top: 1px solid #d0d0d0;\n          border-left: 1px solid #d0d0d0;\n          position: relative;\n          z-index: 50; }\n        header ul.head_ul li ol li {\n          font-size: 14px;\n          line-height: 16px;\n          display: block;\n          margin: 15px 0px;\n          box-sizing: border-box;\n          text-align: center; }\n          header ul.head_ul li ol li a {\n            color: #666; }\n      header ul.head_ul li:hover {\n        color: #0061b0;\n        font-weight: bold; }\n      header ul.head_ul li:hover ol {\n        visibility: visible;\n        opacity: 1.0;\n        margin-top: 25px; }\n    header ul.head_ul span.router-link-active {\n      color: #0061b0;\n      font-weight: bold; }\n  header div.com_info {\n    max-width: 170px;\n    display: inline-block;\n    text-align: right; }\n    header div.com_info div.line {\n      width: 1px;\n      height: 30px;\n      background-color: #d0d0d0;\n      vertical-align: middle;\n      margin: 0px 12px;\n      display: none; }\n    header div.com_info #nav-icon3 {\n      width: 25px;\n      height: 20px;\n      display: inline-block;\n      vertical-align: middle;\n      margin: 50px auto;\n      -webkit-transform: rotate(0deg);\n      -moz-transform: rotate(0deg);\n      -o-transform: rotate(0deg);\n      transform: rotate(0deg);\n      -webkit-transition: .5s ease-in-out;\n      -moz-transition: .5s ease-in-out;\n      -o-transition: .5s ease-in-out;\n      transition: .5s ease-in-out;\n      cursor: pointer;\n      display: none; }\n      header div.com_info #nav-icon3 span {\n        display: block;\n        position: absolute;\n        height: 2px;\n        width: 100%;\n        background: #222;\n        opacity: 1;\n        left: 0;\n        -webkit-transform: rotate(0deg);\n        -moz-transform: rotate(0deg);\n        -o-transform: rotate(0deg);\n        transform: rotate(0deg);\n        -webkit-transition: .25s ease-in-out;\n        -moz-transition: .25s ease-in-out;\n        -o-transition: .25s ease-in-out;\n        transition: .25s ease-in-out; }\n        header div.com_info #nav-icon3 span:nth-child(1) {\n          top: 8px; }\n        header div.com_info #nav-icon3 span:nth-child(2), header div.com_info #nav-icon3 span:nth-child(3) {\n          top: 16px;\n          background-color: #0061b0; }\n        header div.com_info #nav-icon3 span:nth-child(4) {\n          top: 24px; }\n    header div.com_info #nav-icon3.open span:nth-child(1) {\n      top: 18px;\n      width: 0%;\n      left: 50%; }\n    header div.com_info #nav-icon3.open span:nth-child(2) {\n      -webkit-transform: rotate(45deg);\n      -moz-transform: rotate(45deg);\n      -o-transform: rotate(45deg);\n      transform: rotate(45deg); }\n    header div.com_info #nav-icon3.open span:nth-child(3) {\n      -webkit-transform: rotate(-45deg);\n      -moz-transform: rotate(-45deg);\n      -o-transform: rotate(-45deg);\n      transform: rotate(-45deg); }\n    header div.com_info #nav-icon3.open span:nth-child(4) {\n      top: 18px;\n      width: 0%;\n      left: 50%; }\n    header div.com_info div.ham_btn {\n      display: none;\n      width: 25px;\n      height: 20px;\n      vertical-align: middle;\n      cursor: pointer; }\n      header div.com_info div.ham_btn span {\n        display: block;\n        width: 100%;\n        height: 2px;\n        background-color: #222;\n        margin-bottom: 6px; }\n        header div.com_info div.ham_btn span:nth-last-child(1) {\n          background-color: #0061b0; }\n\ndiv.mo_nav {\n  width: 100%;\n  height: 100%;\n  position: fixed;\n  background-color: #fff;\n  z-index: 99;\n  top: 67px; }\n\n.fade-enter-active {\n  transition: opacity .1s; }\n\n.fade-enter, .fade-leave-to {\n  opacity: 0; }\n\n@media (max-width: 1200px) {\n  header ul.head_ul {\n    width: 60%; }\n    header ul.head_ul li {\n      margin: 0px 15px;\n      font-size: 16px; }\n  header div.com_info div.line {\n    margin: 0px 5px; }\n  header div.com_info div.ham_btn {\n    width: 23px;\n    height: 20px; } }\n\n@media (max-width: 960px) {\n  header ul.head_ul {\n    width: 60%; }\n    header ul.head_ul li {\n      margin: 0px 10px;\n      font-size: 14px; } }\n\n@media (max-width: 767px) {\n  header {\n    text-align: left;\n    padding: 15px 0px; }\n    header h1 {\n      max-width: 120px; }\n      header h1 img {\n        width: 100%;\n        vertical-align: middle; }\n    header ul.head_ul {\n      display: none; }\n    header div.com_info {\n      position: absolute;\n      right: 2%;\n      top: 50%;\n      transform: translateY(-50%); }\n      header div.com_info #nav-icon3 {\n        display: inline-block; }\n      header div.com_info img {\n        display: none; }\n      header div.com_info div.line {\n        display: none; }\n      header div.com_info div.ham_btn {\n        display: inline-block; }\n    header div.mo_nav ul {\n      width: 100%;\n      display: block; }\n      header div.mo_nav ul li {\n        cursor: pointer;\n        width: 100%;\n        display: block;\n        font-size: 16px;\n        padding: 20px 30px;\n        text-align: left;\n        border-bottom: 1px solid #d0d0d0;\n        margin: 0px; }\n    header div.mo_nav div.com_info_mo {\n      text-align: center;\n      margin-top: 50px; } }\n\nfooter {\n  width: 100%;\n  height: 500px;\n  background-color: #666; }\n\n/***********common section1************/\n/***********common section1************/\n/***********common section1************/\nsection.section1 {\n  text-align: center;\n  padding: 150px 0px;\n  background-size: cover;\n  background-position: center;\n  background-repeat: no-repeat; }\n  section.section1 h2 {\n    font-size: 3.375rem;\n    font-weight: bold;\n    color: #fff;\n    text-shadow: 2px 2px 2px #666; }\n\ndiv.board section.section1 {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n\ndiv.contact section.section1 {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + "); }\n\nsection.section2 {\n  padding: 100px 0px; }\n  section.section2 h2 {\n    font-size: 2.813rem;\n    text-align: center;\n    font-weight: normal; }\n\n@media (max-width: 1200px) {\n  section.section1 h2 {\n    font-size: 3.125rem; } }\n\n@media (max-width: 960px) {\n  section.section1 h2 {\n    font-size: 2.125rem; }\n  section.section2 {\n    padding: 50px 0px; }\n    section.section2 h2 {\n      font-size: 30px; } }\n", ""]);
+exports.push([module.i, "/***********common sub section1************/\n/***********common sub section1************/\nsection.section1 {\n  text-align: center;\n  padding: 150px 0px;\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: cover; }\n  section.section1 h2 {\n    font-size: 3.375rem;\n    font-weight: bold;\n    color: #fff;\n    text-shadow: 2px 2px 2px #666; }\n\ndiv.board section.section1 {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n\ndiv.contact section.section1 {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + "); }\n\nsection.section2 {\n  padding: 100px 0px; }\n  section.section2 h2 {\n    font-size: 2.813rem;\n    text-align: center;\n    font-weight: normal; }\n\n@media (max-width: 1200px) {\n  section.section1 h2 {\n    font-size: 3.125rem; } }\n\n@media (max-width: 960px) {\n  section.section1 h2 {\n    font-size: 2.125rem; }\n  section.section2 {\n    padding: 50px 0px; }\n    section.section2 h2 {\n      font-size: 30px; } }\n\ndiv.board ul {\n  margin-top: 40px; }\n  div.board ul li {\n    background-color: #f6f6f6;\n    padding: 25px 50px;\n    margin-bottom: 30px; }\n    div.board ul li img {\n      display: inline-block; }\n    div.board ul li h3 {\n      display: inline-block;\n      font-size: 1.875rem;\n      font-weight: normal;\n      margin-left: 40px; }\n      div.board ul li h3 p {\n        font-size: 1rem;\n        color: #888;\n        font-weight: 400; }\n    div.board ul li div.down_btn {\n      position: absolute;\n      top: 50%;\n      right: 50px;\n      transform: translateY(-50%);\n      display: inline-block; }\n\n@media (max-width: 960px) {\n  div.board ul li {\n    padding: 25px 30px; }\n    div.board ul li h3 {\n      font-size: 1.563rem; }\n    div.board ul li div.btn {\n      padding: 15px 40px; } }\n\n@media (max-width: 767px) {\n  div.board ul li {\n    padding: 15px 15px; }\n    div.board ul li img {\n      width: 90px; }\n    div.board ul li h3 {\n      font-size: 1.25rem;\n      margin-left: 10px; }\n    div.board ul li div.btn {\n      padding: 15px 40px; }\n    div.board ul li div.btn {\n      position: initial;\n      text-align: center;\n      transform: translateY(0%);\n      display: block;\n      padding: 15px 50px;\n      margin-top: 20px; } }\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./src/common/footer.scss":
+/*!***************************************************************************************************************!*\
+  !*** ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./src/common/footer.scss ***!
+  \***************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "../node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, "footer {\n  width: 100%;\n  height: 500px;\n  background-color: #666; }\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./src/common/header.scss":
+/*!***************************************************************************************************************!*\
+  !*** ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./src/common/header.scss ***!
+  \***************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "../node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, "header {\n  padding: 35px 0px;\n  border-bottom: 1px solid #d0d0d0;\n  text-align: center;\n  position: relative;\n  z-index: 100; }\n  header h1 {\n    display: inline-block;\n    max-width: 155px;\n    cursor: pointer; }\n  header ul.head_ul {\n    display: inline-block;\n    width: 80%;\n    max-width: 865px;\n    text-align: center; }\n    header ul.head_ul li {\n      display: inline;\n      font-size: 1.125rem;\n      margin: 0px 25px;\n      font-weight: normal;\n      cursor: pointer; }\n      header ul.head_ul li ol {\n        min-width: 150px;\n        height: auto;\n        border: 1px solid #d0d0d0;\n        z-index: 90;\n        position: absolute;\n        left: 50%;\n        margin-top: 0px;\n        transform: translateX(-50%);\n        background-color: #fff;\n        border-radius: 10px;\n        -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);\n        -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);\n        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.3);\n        opacity: 0.0;\n        visibility: hidden;\n        transition: .2s ease-in-out;\n        padding-bottom: 15px; }\n        header ul.head_ul li ol div.speech_box {\n          background-color: #fff;\n          width: 18px;\n          height: 18px;\n          margin: 0 auto;\n          margin-top: -10px;\n          transform: rotate(45deg);\n          border-top: 1px solid #d0d0d0;\n          border-left: 1px solid #d0d0d0;\n          position: relative;\n          z-index: 50; }\n        header ul.head_ul li ol li {\n          font-size: 14px;\n          line-height: 16px;\n          display: block;\n          margin: 15px 0px;\n          box-sizing: border-box;\n          text-align: center; }\n          header ul.head_ul li ol li a {\n            color: #888; }\n      header ul.head_ul li:hover {\n        color: #0061b0;\n        font-weight: bold; }\n      header ul.head_ul li:hover ol {\n        visibility: visible;\n        opacity: 1.0;\n        margin-top: 25px; }\n    header ul.head_ul span.router-link-active {\n      color: #0061b0;\n      font-weight: bold; }\n  header div.com_info {\n    max-width: 170px;\n    display: inline-block;\n    text-align: right; }\n    header div.com_info div.line {\n      width: 1px;\n      height: 30px;\n      background-color: #d0d0d0;\n      vertical-align: middle;\n      margin: 0px 12px;\n      display: none; }\n    header div.com_info #nav-icon3 {\n      width: 25px;\n      height: 20px;\n      display: inline-block;\n      vertical-align: middle;\n      margin: 50px auto;\n      -webkit-transform: rotate(0deg);\n      -moz-transform: rotate(0deg);\n      -o-transform: rotate(0deg);\n      transform: rotate(0deg);\n      -webkit-transition: .5s ease-in-out;\n      -moz-transition: .5s ease-in-out;\n      -o-transition: .5s ease-in-out;\n      transition: .5s ease-in-out;\n      cursor: pointer;\n      display: none; }\n      header div.com_info #nav-icon3 span {\n        display: block;\n        position: absolute;\n        height: 2px;\n        width: 100%;\n        background: #222;\n        opacity: 1;\n        left: 0;\n        -webkit-transform: rotate(0deg);\n        -moz-transform: rotate(0deg);\n        -o-transform: rotate(0deg);\n        transform: rotate(0deg);\n        -webkit-transition: .25s ease-in-out;\n        -moz-transition: .25s ease-in-out;\n        -o-transition: .25s ease-in-out;\n        transition: .25s ease-in-out; }\n        header div.com_info #nav-icon3 span:nth-child(1) {\n          top: 8px; }\n        header div.com_info #nav-icon3 span:nth-child(2), header div.com_info #nav-icon3 span:nth-child(3) {\n          top: 16px;\n          background-color: #0061b0; }\n        header div.com_info #nav-icon3 span:nth-child(4) {\n          top: 24px; }\n    header div.com_info #nav-icon3.open span:nth-child(1) {\n      top: 18px;\n      width: 0%;\n      left: 50%; }\n    header div.com_info #nav-icon3.open span:nth-child(2) {\n      -webkit-transform: rotate(45deg);\n      -moz-transform: rotate(45deg);\n      -o-transform: rotate(45deg);\n      transform: rotate(45deg); }\n    header div.com_info #nav-icon3.open span:nth-child(3) {\n      -webkit-transform: rotate(-45deg);\n      -moz-transform: rotate(-45deg);\n      -o-transform: rotate(-45deg);\n      transform: rotate(-45deg); }\n    header div.com_info #nav-icon3.open span:nth-child(4) {\n      top: 18px;\n      width: 0%;\n      left: 50%; }\n    header div.com_info div.ham_btn {\n      display: none;\n      width: 25px;\n      height: 20px;\n      vertical-align: middle;\n      cursor: pointer; }\n      header div.com_info div.ham_btn span {\n        display: block;\n        width: 100%;\n        height: 2px;\n        background-color: #222;\n        margin-bottom: 6px; }\n        header div.com_info div.ham_btn span:nth-last-child(1) {\n          background-color: #0061b0; }\n\n@media (max-width: 1200px) {\n  header ul.head_ul {\n    width: 60%; }\n    header ul.head_ul li {\n      margin: 0px 15px;\n      font-size: 16px; }\n  header div.com_info div.line {\n    margin: 0px 5px; }\n  header div.com_info div.ham_btn {\n    width: 23px;\n    height: 20px; } }\n\n@media (max-width: 960px) {\n  header ul.head_ul {\n    width: 60%; }\n    header ul.head_ul li {\n      margin: 0px 10px;\n      font-size: 14px; } }\n\n@media (max-width: 767px) {\n  header {\n    text-align: left;\n    padding: 15px 0px; }\n    header h1 {\n      max-width: 120px; }\n      header h1 img {\n        width: 100%;\n        vertical-align: middle; }\n    header ul.head_ul {\n      display: none; }\n    header div.com_info {\n      position: absolute;\n      right: 2%;\n      top: 50%;\n      transform: translateY(-50%); }\n      header div.com_info #nav-icon3 {\n        display: inline-block; }\n      header div.com_info img {\n        display: none; }\n      header div.com_info div.line {\n        display: none; }\n      header div.com_info div.ham_btn {\n        display: inline-block; }\n    header div.mo_nav ul {\n      width: 100%;\n      display: block; }\n      header div.mo_nav ul li {\n        cursor: pointer;\n        width: 100%;\n        display: block;\n        font-size: 16px;\n        padding: 20px 30px;\n        text-align: left;\n        border-bottom: 1px solid #d0d0d0;\n        margin: 0px; }\n    header div.mo_nav div.com_info_mo {\n      text-align: center;\n      margin-top: 50px; } }\n", ""]);
+// Exports
+module.exports = exports;
+
+
+/***/ }),
+
+/***/ "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./src/common/mo-nav.scss":
+/*!***************************************************************************************************************!*\
+  !*** ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./src/common/mo-nav.scss ***!
+  \***************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+// Imports
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "../node_modules/css-loader/dist/runtime/api.js");
+exports = ___CSS_LOADER_API_IMPORT___(false);
+// Module
+exports.push([module.i, "div.mo_nav {\n  width: 100%;\n  height: 100%;\n  position: fixed;\n  background-color: #fff;\n  z-index: 99;\n  top: 67px; }\n\n.fade-enter-active {\n  transition: opacity .5s; }\n\n.fade-enter, .fade-leave-to {\n  opacity: 0; }\n\n@media (max-width: 767px) {\n  div.mo_nav ul {\n    width: 100%;\n    display: block; }\n    div.mo_nav ul li {\n      cursor: pointer;\n      width: 100%;\n      display: block;\n      font-size: 16px;\n      padding: 20px 30px;\n      text-align: left;\n      border-bottom: 1px solid #d0d0d0;\n      margin: 0px; }\n  div.mo_nav div.com_info_mo {\n    text-align: center;\n    margin-top: 50px; } }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -136,9 +172,14 @@ module.exports = exports;
 
 // Imports
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "../node_modules/css-loader/dist/runtime/api.js");
+var ___CSS_LOADER_GET_URL_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/getUrl.js */ "../node_modules/css-loader/dist/runtime/getUrl.js");
+var ___CSS_LOADER_URL_IMPORT_0___ = __webpack_require__(/*! ../../image/board-section1.jpg */ "./image/board-section1.jpg");
+var ___CSS_LOADER_URL_IMPORT_1___ = __webpack_require__(/*! ../../image/contact-section1.jpg */ "./image/contact-section1.jpg");
 exports = ___CSS_LOADER_API_IMPORT___(false);
+var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_0___);
+var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
 // Module
-exports.push([module.i, "div.contact div.class_select div.selects {\n  display: inline-block;\n  width: 70%; }\n\ndiv.contact div.class_select div.checkbox {\n  margin-right: 20px;\n  display: inline-block; }\n  div.contact div.class_select div.checkbox label {\n    font-size: 14px; }\n\ndiv.contact div.sub_btn {\n  max-width: 200px;\n  height: 50px;\n  line-height: 50px;\n  margin: 50px auto;\n  text-align: center;\n  -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.1);\n  -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.1);\n  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.1); }\n\n@media (max-width: 1200px) {\n  div.contact div.class_select div.checkbox {\n    margin-bottom: 10px; } }\n\n@media (max-width: 767px) {\n  .form_area input[type=text], select, textarea {\n    width: 60%; }\n  div.contact div.class_select div.checkbox {\n    width: 40%; } }\n", ""]);
+exports.push([module.i, "/***********common sub section1************/\n/***********common sub section1************/\nsection.section1 {\n  text-align: center;\n  padding: 150px 0px;\n  background-position: center;\n  background-repeat: no-repeat;\n  background-size: cover; }\n  section.section1 h2 {\n    font-size: 3.375rem;\n    font-weight: bold;\n    color: #fff;\n    text-shadow: 2px 2px 2px #666; }\n\ndiv.board section.section1 {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + "); }\n\ndiv.contact section.section1 {\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + "); }\n\nsection.section2 {\n  padding: 100px 0px; }\n  section.section2 h2 {\n    font-size: 2.813rem;\n    text-align: center;\n    font-weight: normal; }\n\n@media (max-width: 1200px) {\n  section.section1 h2 {\n    font-size: 3.125rem; } }\n\n@media (max-width: 960px) {\n  section.section1 h2 {\n    font-size: 2.125rem; }\n  section.section2 {\n    padding: 50px 0px; }\n    section.section2 h2 {\n      font-size: 30px; } }\n\ndiv.contact div.class_select div.selects {\n  display: inline-block;\n  width: 70%; }\n\ndiv.contact div.class_select div.checkbox {\n  margin-right: 20px;\n  display: inline-block; }\n  div.contact div.class_select div.checkbox label {\n    font-size: 14px; }\n\ndiv.contact div.sub_btn {\n  max-width: 200px;\n  height: 50px;\n  line-height: 50px;\n  margin: 50px auto;\n  text-align: center;\n  padding: 0px; }\n\n@media (max-width: 1200px) {\n  div.contact div.class_select div.checkbox {\n    margin-bottom: 10px; } }\n\n@media (max-width: 767px) {\n  .form_area input[type=text], select, textarea {\n    width: 60%; }\n  div.contact div.class_select div.checkbox {\n    width: 40%; } }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -164,7 +205,7 @@ var ___CSS_LOADER_URL_REPLACEMENT_0___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_1___);
 var ___CSS_LOADER_URL_REPLACEMENT_2___ = ___CSS_LOADER_GET_URL_IMPORT___(___CSS_LOADER_URL_IMPORT_2___);
 // Module
-exports.push([module.i, "* {\n  margin: 0px;\n  padding: 0px;\n  vertical-align: middle; }\n\nhtml, body {\n  font-size: 16px;\n  font-family: 'Nanum Gothic','Roboto', sans-serif;\n  background-color: #fff; }\n\nhtml, body, ul, ol, li, img, div, span, iframe, a, p, input, textarea, select, i {\n  position: relative;\n  letter-spacing: -0.5px;\n  word-break: keep-all; }\n\na, a:hover, a:active, a:focus {\n  text-decoration: none; }\n\nimg {\n  border: none;\n  width: auto;\n  vertical-align: middle; }\n\nul, ol {\n  list-style: none; }\n\niframe, object, video, embed {\n  position: relative;\n  top: 0;\n  left: 0;\n  max-width: 100%; }\n\ninput, select {\n  outline: none; }\n\ninput {\n  display: block;\n  height: 30px;\n  padding: 0 10px;\n  line-height: 30px;\n  border: 1px solid #e0e0e0;\n  outline: none;\n  transition: all 0.2s ease; }\n\ntextarea {\n  padding: 10px;\n  border: 1px solid #e0e0e0;\n  outline: none;\n  transition: all 0.2s ease; }\n\ninput:focus, select:focus, textarea:focus {\n  border: 1px solid #999;\n  background: #f6f6f6;\n  transition: all 0.2s ease; }\n\nselect::-ms-expand {\n  display: none; }\n\nselect {\n  position: relative;\n  display: block;\n  height: 30px;\n  font-weight: 400;\n  box-sizing: border-box;\n  padding: 0 5px;\n  border: 1px solid #e0e0e0;\n  border-radius: 0;\n  outline: none;\n  transition: all 0.2s ease;\n  background: #fff url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") no-repeat right;\n  -webkit-appearance: none;\n  -moz-appearance: none; }\n\nselect:focus {\n  background: #fff url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") no-repeat right;\n  border: 1px solid #999; }\n\n.privacy {\n  max-width: 1200px;\n  margin: 0 auto;\n  margin-top: 50px; }\n\n.p_box {\n  width: 100%;\n  height: 150px;\n  border: 1px solid #d9d9d9;\n  background: #f9f9f9;\n  padding: 20px;\n  box-sizing: border-box;\n  overflow: hidden;\n  overflow-y: scroll; }\n\n.privacy p {\n  font-size: 14px;\n  margin-bottom: 20px; }\n\n.privacy ol {\n  list-style: decimal;\n  margin-left: 10px; }\n\n.privacy li {\n  font-size: 13px;\n  color: #666;\n  line-height: 20px;\n  margin-bottom: 10px; }\n\n.privacy .checkbox {\n  margin-top: 10px; }\n\nlabel {\n  font-size: 1rem; }\n\n/* Checkbox Setting */\n.checkbox.checkbox-css {\n  position: relative; }\n\n.checkbox.checkbox-css.checkbox-inline {\n  padding-left: 0; }\n\n.checkbox.checkbox-css label {\n  padding-left: 25px;\n  min-height: 20px;\n  margin-top: 0px;\n  margin-bottom: 0;\n  cursor: pointer;\n  display: inline-block; }\n\n.checkbox.checkbox-css.light label:before {\n  content: '';\n  position: absolute;\n  left: 0;\n  top: 8px;\n  width: 18px;\n  height: 18px;\n  border: 1px solid rgba(1, 1, 1, 0.3); }\n\n.checkbox.checkbox-css label:before {\n  content: '';\n  position: absolute;\n  left: 0;\n  top: 8px;\n  width: 18px;\n  height: 18px;\n  border: 1px solid #c0c0c0; }\n\n.checkbox.checkbox-css input {\n  display: none; }\n\n.checkbox.checkbox-css input:checked + label:after {\n  content: '\\e876';\n  position: absolute;\n  top: 10px;\n  left: 4px;\n  font-family: 'Material Icons';\n  font-size: 14px;\n  font-weight: 600;\n  color: #fff;\n  line-height: 14px;\n  width: 14px;\n  text-align: center; }\n\n.checkbox.checkbox-css input:checked + label:before {\n  background: #348fe2;\n  border-color: #348fe2; }\n\n.checkbox.checkbox-css input:checked + label {\n  color: #348fe2;\n  font-weight: 700; }\n\n.checkbox.checkbox-css.checkbox-success input:checked + label:before {\n  background: #00acac;\n  border-color: #00acac; }\n\n.checkbox.checkbox-css.checkbox-success input:checked + label {\n  color: #00acac;\n  font-weight: 700; }\n\n.checkbox.checkbox-css.checkbox-info input:checked + label:before {\n  background: #49b6d6;\n  border-color: #49b6d6; }\n\n.checkbox.checkbox-css.checkbox-info input:checked + label {\n  color: #49b6d6;\n  font-weight: 700; }\n\n.checkbox.checkbox-css.checkbox-danger input:checked + label:before {\n  background: #f4514a;\n  border-color: #f4514a; }\n\n.checkbox.checkbox-css.checkbox-danger input:checked + label {\n  color: #f4514a;\n  font-weight: 700; }\n\n.checkbox.checkbox-css.checkbox-warning input:checked + label:before {\n  background: #0061b0;\n  border-color: #0061b0; }\n\n.checkbox.checkbox-css.checkbox-warning input:checked + label {\n  color: #0061b0;\n  font-weight: 700; }\n\n.checkbox.checkbox-css.checkbox-inverse input:checked + label:before {\n  background: #2d353c;\n  border-color: #2d353c; }\n\n.checkbox.checkbox-css.checkbox-inverse input:checked + label {\n  color: #2d353c;\n  font-weight: 700; }\n\n.checkbox {\n  position: relative; }\n\n.checkbox input {\n  display: none; }\n\n.checkbox label {\n  padding-left: 30px;\n  min-height: 20px;\n  margin-top: 4px;\n  margin-bottom: 0;\n  cursor: pointer;\n  display: inline-block; }\n\n.checkbox label:before {\n  content: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 25px;\n  height: 25px;\n  background: #d9d9d9; }\n\n.checkbox input:checked + label:after {\n  content: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n  position: absolute;\n  top: 0;\n  left: 0; }\n\n.checkbox input:checked + label:before {\n  background: #0061b0; }\n\n.checkbox input:checked + label {\n  color: #0061b0; }\n\n.form_area {\n  max-width: 1200px;\n  margin: 0 auto;\n  margin-top: 50px;\n  border-top: 2px solid #444;\n  border-bottom: 1px solid #444; }\n\n.form_area input[type=text], select {\n  display: inline-block;\n  width: 40%; }\n\n.form_area .form_select > div {\n  display: inline-block;\n  width: 70%;\n  text-align: center; }\n\n.form_area .form_select > div div {\n  width: 30%;\n  display: inline-block;\n  text-align: left;\n  box-sizing: border-box; }\n\n.form_area .form_select > div div:nth-child(1) {\n  float: left; }\n\n.form_area .form_select > div div:nth-child(3) {\n  float: right; }\n\n.form_area .radio label {\n  display: block;\n  width: 100%;\n  height: 40px;\n  line-height: 40px;\n  border: 1px solid #d9d9d9;\n  box-sizing: border-box; }\n\n.form_area > div {\n  display: block;\n  width: 100%;\n  padding: 10px 0;\n  border-bottom: 1px solid #f0f0f0; }\n\n.form_area > div > p {\n  display: inline-block;\n  width: 20%;\n  font-size: 16px;\n  padding-left: 20px;\n  vertical-align: middle; }\n\n.form_area > div:last-child {\n  border-bottom: 0; }\n\n.form_area .txt p {\n  vertical-align: top; }\n\n.form_area .wid70 input {\n  width: 70%; }\n\n.form_area .wid20 input {\n  width: 20%; }\n\ntextarea {\n  position: relative;\n  width: 70%;\n  height: 200px;\n  border: 1px solid #d9d9d9;\n  padding: 10px;\n  transition: all 0.3s ease;\n  resize: none; }\n\ntextarea:focus {\n  border: 1px solid #666;\n  background: #f9f9f9; }\n\ndiv.wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n\ndiv.btn {\n  cursor: pointer;\n  color: #fff;\n  background-color: #0061b0; }\n\n@media (max-width: 1200px) {\n  div.wrap {\n    max-width: 98%; } }\n", ""]);
+exports.push([module.i, "* {\n  margin: 0px;\n  padding: 0px;\n  vertical-align: middle; }\n\nhtml, body {\n  font-size: 16px;\n  font-family: 'Nanum Gothic','Roboto', sans-serif;\n  background-color: #fff;\n  color: #222; }\n\nhtml, body, ul, ol, li, img, div, span, iframe, a, p, input, textarea, select, i {\n  position: relative;\n  letter-spacing: -0.5px;\n  word-break: keep-all; }\n\na, a:hover, a:active, a:focus {\n  text-decoration: none; }\n\nimg {\n  border: none;\n  width: auto;\n  vertical-align: middle; }\n\nul, ol {\n  list-style: none; }\n\niframe, object, video, embed {\n  position: relative;\n  top: 0;\n  left: 0;\n  max-width: 100%; }\n\ninput, select {\n  outline: none; }\n\ninput {\n  display: block;\n  height: 30px;\n  padding: 0 10px;\n  line-height: 30px;\n  border: 1px solid #e0e0e0;\n  outline: none;\n  transition: all 0.2s ease; }\n\ntextarea {\n  padding: 10px;\n  border: 1px solid #e0e0e0;\n  outline: none;\n  transition: all 0.2s ease; }\n\ninput:focus, select:focus, textarea:focus {\n  border: 1px solid #999;\n  background: #f6f6f6;\n  transition: all 0.2s ease; }\n\nselect::-ms-expand {\n  display: none; }\n\nselect {\n  position: relative;\n  display: block;\n  height: 30px;\n  font-weight: 400;\n  box-sizing: border-box;\n  padding: 0 5px;\n  border: 1px solid #e0e0e0;\n  border-radius: 0;\n  outline: none;\n  transition: all 0.2s ease;\n  background: #fff url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ") no-repeat right;\n  -webkit-appearance: none;\n  -moz-appearance: none; }\n\nselect:focus {\n  background: #fff url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") no-repeat right;\n  border: 1px solid #999; }\n\n.privacy {\n  max-width: 1200px;\n  margin: 0 auto;\n  margin-top: 50px; }\n\n.p_box {\n  width: 100%;\n  height: 150px;\n  border: 1px solid #d9d9d9;\n  background: #f9f9f9;\n  padding: 20px;\n  box-sizing: border-box;\n  overflow: hidden;\n  overflow-y: scroll; }\n\n.privacy p {\n  font-size: 14px;\n  margin-bottom: 20px; }\n\n.privacy ol {\n  list-style: decimal;\n  margin-left: 10px; }\n\n.privacy li {\n  font-size: 13px;\n  color: #666;\n  line-height: 20px;\n  margin-bottom: 10px; }\n\n.privacy .checkbox {\n  margin-top: 10px; }\n\nlabel {\n  font-size: 1rem; }\n\n/* Checkbox Setting */\n.checkbox.checkbox-css {\n  position: relative; }\n\n.checkbox.checkbox-css.checkbox-inline {\n  padding-left: 0; }\n\n.checkbox.checkbox-css label {\n  padding-left: 25px;\n  min-height: 20px;\n  margin-top: 0px;\n  margin-bottom: 0;\n  cursor: pointer;\n  display: inline-block; }\n\n.checkbox.checkbox-css.light label:before {\n  content: '';\n  position: absolute;\n  left: 0;\n  top: 8px;\n  width: 18px;\n  height: 18px;\n  border: 1px solid rgba(1, 1, 1, 0.3); }\n\n.checkbox.checkbox-css label:before {\n  content: '';\n  position: absolute;\n  left: 0;\n  top: 8px;\n  width: 18px;\n  height: 18px;\n  border: 1px solid #c0c0c0; }\n\n.checkbox.checkbox-css input {\n  display: none; }\n\n.checkbox.checkbox-css input:checked + label:after {\n  content: '\\e876';\n  position: absolute;\n  top: 10px;\n  left: 4px;\n  font-family: 'Material Icons';\n  font-size: 14px;\n  font-weight: 600;\n  color: #fff;\n  line-height: 14px;\n  width: 14px;\n  text-align: center; }\n\n.checkbox.checkbox-css input:checked + label:before {\n  background: #348fe2;\n  border-color: #348fe2; }\n\n.checkbox.checkbox-css input:checked + label {\n  color: #348fe2;\n  font-weight: 700; }\n\n.checkbox.checkbox-css.checkbox-success input:checked + label:before {\n  background: #00acac;\n  border-color: #00acac; }\n\n.checkbox.checkbox-css.checkbox-success input:checked + label {\n  color: #00acac;\n  font-weight: 700; }\n\n.checkbox.checkbox-css.checkbox-info input:checked + label:before {\n  background: #49b6d6;\n  border-color: #49b6d6; }\n\n.checkbox.checkbox-css.checkbox-info input:checked + label {\n  color: #49b6d6;\n  font-weight: 700; }\n\n.checkbox.checkbox-css.checkbox-danger input:checked + label:before {\n  background: #f4514a;\n  border-color: #f4514a; }\n\n.checkbox.checkbox-css.checkbox-danger input:checked + label {\n  color: #f4514a;\n  font-weight: 700; }\n\n.checkbox.checkbox-css.checkbox-warning input:checked + label:before {\n  background: #0061b0;\n  border-color: #0061b0; }\n\n.checkbox.checkbox-css.checkbox-warning input:checked + label {\n  color: #0061b0;\n  font-weight: 700; }\n\n.checkbox.checkbox-css.checkbox-inverse input:checked + label:before {\n  background: #2d353c;\n  border-color: #2d353c; }\n\n.checkbox.checkbox-css.checkbox-inverse input:checked + label {\n  color: #2d353c;\n  font-weight: 700; }\n\n.checkbox {\n  position: relative; }\n\n.checkbox input {\n  display: none; }\n\n.checkbox label {\n  padding-left: 30px;\n  min-height: 20px;\n  margin-top: 4px;\n  margin-bottom: 0;\n  cursor: pointer;\n  display: inline-block; }\n\n.checkbox label:before {\n  content: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 25px;\n  height: 25px;\n  background: #d9d9d9; }\n\n.checkbox input:checked + label:after {\n  content: url(" + ___CSS_LOADER_URL_REPLACEMENT_2___ + ");\n  position: absolute;\n  top: 0;\n  left: 0; }\n\n.checkbox input:checked + label:before {\n  background: #0061b0; }\n\n.checkbox input:checked + label {\n  color: #0061b0; }\n\n.form_area {\n  max-width: 1200px;\n  margin: 0 auto;\n  margin-top: 50px;\n  border-top: 2px solid #444;\n  border-bottom: 1px solid #444; }\n\n.form_area input[type=text], select {\n  display: inline-block;\n  width: 40%; }\n\n.form_area .form_select > div {\n  display: inline-block;\n  width: 70%;\n  text-align: center; }\n\n.form_area .form_select > div div {\n  width: 30%;\n  display: inline-block;\n  text-align: left;\n  box-sizing: border-box; }\n\n.form_area .form_select > div div:nth-child(1) {\n  float: left; }\n\n.form_area .form_select > div div:nth-child(3) {\n  float: right; }\n\n.form_area .radio label {\n  display: block;\n  width: 100%;\n  height: 40px;\n  line-height: 40px;\n  border: 1px solid #d9d9d9;\n  box-sizing: border-box; }\n\n.form_area > div {\n  display: block;\n  width: 100%;\n  padding: 10px 0;\n  border-bottom: 1px solid #f0f0f0; }\n\n.form_area > div > p {\n  display: inline-block;\n  width: 20%;\n  font-size: 16px;\n  padding-left: 20px;\n  vertical-align: middle; }\n\n.form_area > div:last-child {\n  border-bottom: 0; }\n\n.form_area .txt p {\n  vertical-align: top; }\n\n.form_area .wid70 input {\n  width: 70%; }\n\n.form_area .wid20 input {\n  width: 20%; }\n\ntextarea {\n  position: relative;\n  width: 70%;\n  height: 200px;\n  border: 1px solid #d9d9d9;\n  padding: 10px;\n  transition: all 0.3s ease;\n  resize: none; }\n\ntextarea:focus {\n  border: 1px solid #666;\n  background: #f9f9f9; }\n\ndiv.wrap {\n  max-width: 1200px;\n  margin: 0 auto; }\n\ndiv.btn {\n  padding: 15px 50px;\n  cursor: pointer;\n  color: #fff;\n  background-color: #0061b0;\n  -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.1);\n  -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.1);\n  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.1);\n  transition: .1s ease-in; }\n  div.btn:hover {\n    background-color: #006fca; }\n\n@media (max-width: 1200px) {\n  div.wrap {\n    max-width: 98%; } }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -3767,15 +3808,37 @@ const CasePage = {
 
 /***/ }),
 
-/***/ "./src/common/common.scss":
+/***/ "./src/common/footer.js":
+/*!******************************!*\
+  !*** ./src/common/footer.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _footer_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./footer.scss */ "./src/common/footer.scss");
+/* harmony import */ var _footer_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_footer_scss__WEBPACK_IMPORTED_MODULE_0__);
+
+const Footer = {
+    template:`<footer>
+        123
+    </footer>`
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Footer);
+
+/***/ }),
+
+/***/ "./src/common/footer.scss":
 /*!********************************!*\
-  !*** ./src/common/common.scss ***!
+  !*** ./src/common/footer.scss ***!
   \********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./common.scss */ "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./src/common/common.scss");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./footer.scss */ "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./src/common/footer.scss");
 
             content = content.__esModule ? content.default : content;
 
@@ -3798,25 +3861,6 @@ module.exports = exported;
 
 /***/ }),
 
-/***/ "./src/common/footer.js":
-/*!******************************!*\
-  !*** ./src/common/footer.js ***!
-  \******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-const Footer = {
-    template:`<footer>
-        123
-    </footer>`
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (Footer);
-
-/***/ }),
-
 /***/ "./src/common/header.js":
 /*!******************************!*\
   !*** ./src/common/header.js ***!
@@ -3826,8 +3870,8 @@ const Footer = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _common_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./common.scss */ "./src/common/common.scss");
-/* harmony import */ var _common_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_common_scss__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _header_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./header.scss */ "./src/common/header.scss");
+/* harmony import */ var _header_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_header_scss__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _mo_nav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./mo_nav */ "./src/common/mo_nav.js");
 /* harmony import */ var _eventbus__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../eventbus */ "./src/eventbus.js");
 
@@ -3931,6 +3975,68 @@ const Header = {
 
 /***/ }),
 
+/***/ "./src/common/header.scss":
+/*!********************************!*\
+  !*** ./src/common/header.scss ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./header.scss */ "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./src/common/header.scss");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+var exported = content.locals ? content.locals : {};
+
+
+
+module.exports = exported;
+
+/***/ }),
+
+/***/ "./src/common/mo-nav.scss":
+/*!********************************!*\
+  !*** ./src/common/mo-nav.scss ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js!../../../node_modules/sass-loader/dist/cjs.js!./mo-nav.scss */ "../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./src/common/mo-nav.scss");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+var exported = content.locals ? content.locals : {};
+
+
+
+module.exports = exported;
+
+/***/ }),
+
 /***/ "./src/common/mo_nav.js":
 /*!******************************!*\
   !*** ./src/common/mo_nav.js ***!
@@ -3940,6 +4046,9 @@ const Header = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _mo_nav_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./mo-nav.scss */ "./src/common/mo-nav.scss");
+/* harmony import */ var _mo_nav_scss__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_mo_nav_scss__WEBPACK_IMPORTED_MODULE_0__);
+
 const MoNav = {
     props:['show'],
     template:`
