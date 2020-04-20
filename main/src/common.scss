@@ -1,8 +1,6 @@
 @import '../define.scss';
-
 /***********common sub section1************/
 /***********common sub section1************/
-
 section.section1{
     text-align: center;
     padding: 150px 0px;
@@ -20,7 +18,6 @@ section.section1{
         }
     }
 }
-
 div.board{
     section.section1{
         background-image: url($ImgRoute + "board-section1.jpg");
@@ -31,15 +28,11 @@ div.contact{
         background-image: url($ImgRoute + "contact-section1.jpg");
     }
 }
-
 div.case{
     section.section1{
         background-image: url($ImgRoute + "case-section1.jpg");
     }
 }
-
-
-
 /***********common sub section2************/
 /***********common sub section2************/
 
