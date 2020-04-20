@@ -1,2 +1,2 @@
 # 에드브레인 홈페이지 
-## Vue.js / webpack / php 
+## Vue.js / scss / webpack / php 
