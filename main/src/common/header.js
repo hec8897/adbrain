@@ -48,7 +48,6 @@ const Header = {
                     </ul>
                     <div class='com_info'>
                         <img src='image/com_phone.png'>
-                        <div class='line'></div>
                         <div id='nav-icon3' class='ham_btn' @click='NavOpen($event)'>
                             <span></span>
                             <span></span>

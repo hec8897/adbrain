@@ -5,28 +5,53 @@ header{
     text-align: center;
     position: relative;
     z-index: 100;
+    @media (max-width:767px){
+        text-align: left;
+        padding: 15px 0px;
+    }
     h1{
+        cursor: pointer;
         display: inline-block;
         max-width: 155px;
-        cursor: pointer;
+        @media (max-width:767px){
+            max-width: 120px;
+            img{
+                width: 100%;
+                vertical-align: middle;
+            }
+        }
     }
     ul.head_ul{
         display: inline-block;
         width: 80%;
         max-width: 865px;
         text-align: center;
+        @media (max-width:1200px){
+            width: 60%;
+        }
+        @media (max-width:767px){
+            display: none;
+        }
         li{
             display: inline;
             font-size: 1.125rem;
             margin: 0px 25px;
             font-weight: normal;
             cursor: pointer;
+            @media (max-width:1200px){
+                margin: 0px 15px;
+                font-size: 16px;
+            }
+            @media (max-width:960px){
+                margin: 0px 10px;
+                font-size: 14px;
+            }
             ol{
+                position: absolute;
                 min-width: 150px;
                 height: auto;
                 border: 1px solid #d0d0d0;
                 z-index: 90;
-                position: absolute;
                 left: 50%;
                 margin-top: 0px;
                 transform: translateX(-50%);
@@ -83,19 +108,22 @@ header{
         max-width: 170px;
         display: inline-block;
         text-align: right;
-        div.line{
-            width: 1px;
-            height: 30px;
-            background-color: #d0d0d0;
-            vertical-align: middle;
-            // display: inline-block;
-            margin: 0px 12px;
-            display: none;
+        @media (max-width:767px){
+            position: absolute;
+            right: 2%;
+            top: 50%;
+            transform: translateY(-50%);
+            img{
+                display: none;
+            }
+            div.ham_btn{
+                display: inline-block;
+            }
         }
+        
         #nav-icon3 {
             width: 25px;
             height: 20px;
-            display: inline-block;
             vertical-align: middle;
             margin: 50px auto;
             -webkit-transform: rotate(0deg);
@@ -108,6 +136,9 @@ header{
             transition: .5s ease-in-out;
             cursor: pointer;
             display: none;
+            @media (max-width:767px){
+                display: inline-block;
+            }
 
             span {
                 display: block;
@@ -166,12 +197,15 @@ header{
           }
 
         div.ham_btn{
-            // display: inline-block;
+            cursor: pointer;
             display: none;
             width: 25px;
             height: 20px;
             vertical-align: middle;
-            cursor: pointer;
+            @media (max-width:1200px){
+                width: 23px;
+                height: 20px;
+            }
             span{
                 display: block;
                 width: 100%;
@@ -183,100 +217,6 @@ header{
                 }
             }
         }
-
-          
-          
     }
-}
-
-@media (max-width:1200px){
-    header{
-        ul.head_ul{
-            width: 60%;
-            li{
-                margin: 0px 15px;
-                font-size: 16px;
-            }
-        }
-        div.com_info{
-        
-            div.line{
-                margin: 0px 5px;
-            }
-            div.ham_btn{
-                width: 23px;
-                height: 20px;
-            }
-        }
-  
-    }
-}
-@media (max-width:960px){
-    header{
-        ul.head_ul{
-            width: 60%;
-            li{
-                margin: 0px 10px;
-                font-size: 14px;
-            }
-        }
-    }
-}
-
-@media (max-width:767px){
-  
-    header{
-        text-align: left;
-        padding: 15px 0px;
-        h1{
-            max-width: 120px;
-            img{
-                width: 100%;
-                vertical-align: middle;
-            }
-        }
-        ul.head_ul{
-            display: none;
-        }
-        div.com_info{
-            position: absolute;
-            right: 2%;
-            top: 50%;
-            transform: translateY(-50%);
-            #nav-icon3 {
-                display: inline-block;
-            }
-            img{
-                display: none;
-            }
-            div.line{
-                display: none;
-            }
-            div.ham_btn{
-                display: inline-block;
-            }
-        }
    
-        div.mo_nav{
-            ul{
-                width: 100%;
-                display: block;;
-                li{
-                    cursor: pointer;
-                    width: 100%;
-                    display: block;;
-                    font-size: 16px;
-                    padding: 20px 30px;
-                    text-align: left;
-                    border-bottom: 1px solid #d0d0d0;
-                    margin: 0px;
-                }
-            }
-            div.com_info_mo{
-                text-align: center;
-                margin-top:50px;
-            }
-        }
-
-    }
 }

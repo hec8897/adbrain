@@ -7,12 +7,17 @@ section.section1{
     text-align: center;
     padding: 150px 0px;
     @include BackGroundOption(cover);
-    
     h2{
         font-size: 3.375rem;
         font-weight: bold;
         color: $white;
         text-shadow: 2px 2px 2px #666;
+        @media (max-width:1200px){
+            font-size: 3.125rem;
+        }
+        @media (max-width:767px){
+            font-size: 2.125rem;
+        }
     }
 }
 
@@ -27,33 +32,21 @@ div.contact{
     }
 }
 
+
+/***********common sub section2************/
+/***********common sub section2************/
+
 section.section2{
     @include topBottomBlank(100);
     h2{
         font-size: 2.813rem;
         text-align: center;
         font-weight: normal;
+        @media (max-width:960px){
+            font-size: 1.875rem;
+        }
     }
 }
 
-@media (max-width:1200px){
-    section.section1{
-        h2{
-            font-size: 3.125rem;
-        }
-    }
-    
-}
-@media (max-width:960px){
-    section.section1{
-        h2{
-            font-size: 2.125rem;
-        }
-    }
-    section.section2{
-        h2{
-            font-size: 30px;
-        }
-    }
-}
+
 

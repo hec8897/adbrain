@@ -1,6 +1,5 @@
 @import '../common.scss';
 
-
 div.board{
     ul{
         margin-top: 40px;
@@ -8,15 +7,27 @@ div.board{
             background-color: #f6f6f6;
             padding: 25px 50px;
             margin-bottom: 30px;
+            @media (max-width:960px){
+                padding: 25px 30px;
+            }
             img{
                 display: inline-block;
+                @media (max-width:767px){
+                    width: 90px;
+                }
             }
             h3{
                 display: inline-block;
                 font-size: 1.875rem;
                 font-weight: normal;
                 margin-left: 40px;
-
+                @media (max-width:960px){
+                    font-size: 1.563rem;
+                }
+                @media (max-width:767px){
+                    font-size: 1.25rem;
+                    margin-left: 10px;
+                }
                 p{
                     font-size: 1rem;
                     color: $fontColorLight;
@@ -29,57 +40,14 @@ div.board{
                 right: 50px;
                 transform: translateY(-50%);
                 display: inline-block;
-            }
-        }
-    }
-}
-
-
-@media (max-width:1200px){
-
-
-}
-@media (max-width:960px){
-    div.board{
-        ul{
-            li{
-                padding: 25px 30px;
-                    h3{
-                        font-size: 1.563rem;
-                    }
-                    div.btn{
-                        padding: 15px 40px;
-                    }
-                }
-            }
-        }
-}
-
-@media (max-width:767px){
-    div.board{
-        ul{
-            li{
-                img{
-                    width: 90px;
-                }
-                h3{
-                    font-size: 1.25rem;
-                    margin-left: 10px;
-                }
-                div.btn{
-                    padding: 15px 40px;
-                }
-                padding: 15px 15px;
-                div.btn{
+                @media (max-width:767px){
                     position: initial;
                     text-align: center;
                     transform: translateY(0%);
                     display: block;
-                    padding: 15px 50px;
                     margin-top: 20px;
                 }
             }
         }
     }
-    
 }

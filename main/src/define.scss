@@ -3,6 +3,7 @@ $fontColor:#222;
 $fontColorLight:#888;
 $ImgRoute:"../../image/";
 $white:#fff;
+
 @mixin wrap1200 {
     max-width: 1200px;
     margin: 0 auto;
@@ -34,6 +35,7 @@ $white:#fff;
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
 @mixin topBottomBlank($top){
     padding:$top+px 0px;
     @media (max-width:960px) {
