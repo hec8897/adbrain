@@ -29,18 +29,18 @@ const Header = {
                             </ol>
                         </li>
                         <li>
-                            <router-link to='/case' tag='span'>광고사례</router-link>
+                            <router-link to='/case/all' tag='span'>광고사례</router-link>
                             <ol class='gnb_mini'>
                                 <div class='speech_box'></div>
-                                <li><router-link to='/'>관공서</router-link></li>
-                                <li><router-link to='/'>병의원&middot;한의원</router-link></li>
-                                <li><router-link to='/'>분양</router-link></li>
-                                <li><router-link to='/'>요양원</router-link></li>
-                                <li><router-link to='/'>웨딩홀</router-link></li>
-                                <li><router-link to='/'>학교&middot;학원</router-link></li>
-                                <li><router-link to='/'>프렌차이즈</router-link></li>
-                                <li><router-link to='/'>뷰티</router-link></li>
-                                <li><router-link to='/'>기업광고</router-link></li>
+                                <li><router-link to='/case/관공서'>관공서</router-link></li>
+                                <li><router-link to='/case/병의원'>병의원&middot;한의원</router-link></li>
+                                <li><router-link to='/case/분양'>분양</router-link></li>
+                                <li><router-link to='/case/요양원'>요양원</router-link></li>
+                                <li><router-link to='/case/웨딩홀'>웨딩홀</router-link></li>
+                                <li><router-link to='/case/학교'>학교&middot;학원</router-link></li>
+                                <li><router-link to='/case/프렌차이즈'>프렌차이즈</router-link></li>
+                                <li><router-link to='/case/뷰티'>뷰티</router-link></li>
+                                <li><router-link to='/case/기업광고'>기업광고</router-link></li>
                             </ol>
                         </li>
                         <li><router-link to='/board' tag='span'>자료실</router-link></li>

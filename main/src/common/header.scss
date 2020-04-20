@@ -86,6 +86,9 @@ header{
                     a{
                         color: $fontColorLight;
                     }
+                    a.router-link-active{
+                        color: $mainColor;
+                    }
                 }
             }
             &:hover{

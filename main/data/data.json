@@ -1,0 +1,397 @@
+[
+    {
+        "idx":0,
+        "class":"관공서",
+        "title":"관공서 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case1.jpg"
+    },
+    {
+        "idx":1,
+        "class":"병의원",
+        "title":"병의원 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case2.jpg"
+
+    },
+    {
+        "idx":2,
+        "class":"분양",
+        "title":"분양 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case3.jpg"
+
+    },
+    {
+        "idx":3,
+        "class":"요양원",
+        "title":"요양원 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case1.jpg"
+
+    },
+    {
+        "idx":4,
+        "class":"웨딩홀",
+        "title":"웨딩홀 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case2.jpg"
+
+    },
+    {
+        "idx":5,
+        "class":"학교",
+        "title":"학교 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case3.jpg"
+
+    },
+    {
+        "idx":6,
+        "class":"프렌차이즈",
+        "title":"프렌차이즈 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case1.jpg"
+
+    },
+    {
+        "idx":7,
+        "class":"뷰티",
+        "title":"뷰티 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case2.jpg"
+
+    },
+    {
+        "idx":7,
+        "class":"기업광고",
+        "title":"기업광고 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case3.jpg"
+    },
+    {
+        "idx":0,
+        "class":"관공서",
+        "title":"관공서 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case1.jpg"
+    },
+    {
+        "idx":1,
+        "class":"병의원",
+        "title":"병의원 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case2.jpg"
+
+    },
+    {
+        "idx":2,
+        "class":"분양",
+        "title":"분양 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case3.jpg"
+
+    },
+    {
+        "idx":3,
+        "class":"요양원",
+        "title":"요양원 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case1.jpg"
+
+    },
+    {
+        "idx":4,
+        "class":"웨딩홀",
+        "title":"웨딩홀 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case2.jpg"
+
+    },
+    {
+        "idx":5,
+        "class":"학교",
+        "title":"학교 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case3.jpg"
+
+    },
+    {
+        "idx":6,
+        "class":"프렌차이즈",
+        "title":"프렌차이즈 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case1.jpg"
+
+    },
+    {
+        "idx":7,
+        "class":"뷰티",
+        "title":"뷰티 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case2.jpg"
+
+    },
+    {
+        "idx":7,
+        "class":"기업광고",
+        "title":"기업광고 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case3.jpg"
+    },
+    {
+        "idx":0,
+        "class":"관공서",
+        "title":"관공서 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case1.jpg"
+    },
+    {
+        "idx":1,
+        "class":"병의원",
+        "title":"병의원 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case2.jpg"
+
+    },
+    {
+        "idx":2,
+        "class":"분양",
+        "title":"분양 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case3.jpg"
+
+    },
+    {
+        "idx":3,
+        "class":"요양원",
+        "title":"요양원 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case1.jpg"
+
+    },
+    {
+        "idx":4,
+        "class":"웨딩홀",
+        "title":"웨딩홀 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case2.jpg"
+
+    },
+    {
+        "idx":5,
+        "class":"학교",
+        "title":"학교 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case3.jpg"
+
+    },
+    {
+        "idx":6,
+        "class":"프렌차이즈",
+        "title":"프렌차이즈 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case1.jpg"
+
+    },
+    {
+        "idx":7,
+        "class":"뷰티",
+        "title":"뷰티 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case2.jpg"
+
+    },
+    {
+        "idx":7,
+        "class":"기업광고",
+        "title":"기업광고 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case3.jpg"
+    },
+    {
+        "idx":0,
+        "class":"관공서",
+        "title":"관공서 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case1.jpg"
+    },
+    {
+        "idx":1,
+        "class":"병의원",
+        "title":"병의원 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case2.jpg"
+
+    },
+    {
+        "idx":2,
+        "class":"분양",
+        "title":"분양 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case3.jpg"
+
+    },
+    {
+        "idx":3,
+        "class":"요양원",
+        "title":"요양원 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case1.jpg"
+
+    },
+    {
+        "idx":4,
+        "class":"웨딩홀",
+        "title":"웨딩홀 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case2.jpg"
+
+    },
+    {
+        "idx":5,
+        "class":"학교",
+        "title":"학교 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case3.jpg"
+
+    },
+    {
+        "idx":6,
+        "class":"프렌차이즈",
+        "title":"프렌차이즈 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case1.jpg"
+
+    },
+    {
+        "idx":7,
+        "class":"뷰티",
+        "title":"뷰티 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case2.jpg"
+
+    },
+    {
+        "idx":7,
+        "class":"기업광고",
+        "title":"기업광고 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case3.jpg"
+    },
+    {
+        "idx":0,
+        "class":"관공서",
+        "title":"관공서 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case1.jpg"
+    },
+    {
+        "idx":1,
+        "class":"병의원",
+        "title":"병의원 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case2.jpg"
+
+    },
+    {
+        "idx":2,
+        "class":"분양",
+        "title":"분양 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case3.jpg"
+
+    },
+    {
+        "idx":3,
+        "class":"요양원",
+        "title":"요양원 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case1.jpg"
+
+    },
+    {
+        "idx":4,
+        "class":"웨딩홀",
+        "title":"웨딩홀 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case2.jpg"
+
+    },
+    {
+        "idx":5,
+        "class":"학교",
+        "title":"학교 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case3.jpg"
+
+    },
+    {
+        "idx":6,
+        "class":"프렌차이즈",
+        "title":"프렌차이즈 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case1.jpg"
+
+    },
+    {
+        "idx":7,
+        "class":"뷰티",
+        "title":"뷰티 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case2.jpg"
+
+    },
+    {
+        "idx":7,
+        "class":"기업광고",
+        "title":"기업광고 예시",
+        "InsertDate":"2020.03.15",
+        "Wirter":"admin10000",
+        "ImgRoute":"case-img/case3.jpg"
+    }
+]

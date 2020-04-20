@@ -12,7 +12,8 @@ const router = new VueRouter({
             name: 'main'
         },
         {
-            path: '/case',
+            props:true,
+            path: '/case/:cate',
             component: CasePage,
             name: 'case'
         },

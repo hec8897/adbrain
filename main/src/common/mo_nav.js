@@ -7,7 +7,7 @@ const MoNav = {
         <ul>
             <router-link tag='li' to='/about'>에드브레인</router-link>
             <router-link tag='li' to='/business'>사업분야</router-link>
-            <router-link tag='li' to='/case'>광고사례</router-link>
+            <router-link tag='li' to='/case/all'>광고사례</router-link>
             <router-link tag='li' to='/board'>자료실</router-link>
             <router-link tag='li' to='/contact'>광고문의</router-link>
         </ul>
