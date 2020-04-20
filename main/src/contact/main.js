@@ -11,7 +11,7 @@ const contact = {
             <h2>광고 문의</h2>
             <div class="privacy">
                         <div class="p_box">
-                            <p>에드브레인은 개인정보를 중요시 하며 정보통신망 이용촉진 및 정보보호에 관한 법률을 준수하고 있습니다.</p>
+                            <p>씨이오메이커는 개인정보를 중요시 하며 정보통신망 이용촉진 및 정보보호에 관한 법률을 준수하고 있습니다.</p>
                             <ol>
                                 <li>
                                     개인정보의 수집목적 <br>
@@ -60,23 +60,23 @@ const contact = {
                             <div class='selects'>
                             <div class="checkbox">
                                 <input type="checkbox" id="class_1" value="" />
-                                <label for="class_1">버스외부광고</label>
+                                <label for="class_1">선택1</label>
                             </div>
                             <div class="checkbox">
                                 <input type="checkbox" id="class_2" value="" />
-                                <label for="class_2">버스내부광고</label>
+                                <label for="class_2">선택2</label>
                             </div>
                             <div class="checkbox">
                                 <input type="checkbox" id="class_3" value="" />
-                                <label for="class_3">지하철광고</label>
+                                <label for="class_3">선택3</label>
                             </div>
                             <div class="checkbox">
                                 <input type="checkbox" id="class_4" value="" />
-                                <label for="class_4">옥탑광고</label>
+                                <label for="class_4">선택4</label>
                             </div>
                             <div class="checkbox">
                                 <input type="checkbox" id="class_5" value="" />
-                                <label for="class_5">기타광고</label>
+                                <label for="class_5">선택5</label>
                             </div>
                         </div>
                         </div>

@@ -1,16 +1,16 @@
 [
     {
         "idx":0,
-        "class":"관공서",
-        "title":"관공서 예시",
+        "class":"사례1",
+        "title":"사례1 예시",
         "InsertDate":"2020.03.15",
         "Wirter":"admin10000",
         "ImgRoute":"case-img/case1.jpg"
     },
     {
         "idx":1,
-        "class":"병의원",
-        "title":"병의원 예시",
+        "class":"사례2",
+        "title":"사례2 예시",
         "InsertDate":"2020.03.15",
         "Wirter":"admin10000",
         "ImgRoute":"case-img/case2.jpg"
@@ -18,8 +18,8 @@
     },
     {
         "idx":2,
-        "class":"분양",
-        "title":"분양 예시",
+        "class":"사례3",
+        "title":"사례3 예시",
         "InsertDate":"2020.03.15",
         "Wirter":"admin10000",
         "ImgRoute":"case-img/case3.jpg"
@@ -80,16 +80,16 @@
     },
     {
         "idx":0,
-        "class":"관공서",
-        "title":"관공서 예시",
+        "class":"사례1",
+        "title":"사례1 예시",
         "InsertDate":"2020.03.15",
         "Wirter":"admin10000",
         "ImgRoute":"case-img/case1.jpg"
     },
     {
         "idx":1,
-        "class":"병의원",
-        "title":"병의원 예시",
+        "class":"사례2",
+        "title":"사례2 예시",
         "InsertDate":"2020.03.15",
         "Wirter":"admin10000",
         "ImgRoute":"case-img/case2.jpg"
@@ -97,8 +97,8 @@
     },
     {
         "idx":2,
-        "class":"분양",
-        "title":"분양 예시",
+        "class":"사례3",
+        "title":"사례3 예시",
         "InsertDate":"2020.03.15",
         "Wirter":"admin10000",
         "ImgRoute":"case-img/case3.jpg"
@@ -159,16 +159,16 @@
     },
     {
         "idx":0,
-        "class":"관공서",
-        "title":"관공서 예시",
+        "class":"사례1",
+        "title":"사례1 예시",
         "InsertDate":"2020.03.15",
         "Wirter":"admin10000",
         "ImgRoute":"case-img/case1.jpg"
     },
     {
         "idx":1,
-        "class":"병의원",
-        "title":"병의원 예시",
+        "class":"사례2",
+        "title":"사례2 예시",
         "InsertDate":"2020.03.15",
         "Wirter":"admin10000",
         "ImgRoute":"case-img/case2.jpg"
@@ -176,8 +176,8 @@
     },
     {
         "idx":2,
-        "class":"분양",
-        "title":"분양 예시",
+        "class":"사례3",
+        "title":"사례3 예시",
         "InsertDate":"2020.03.15",
         "Wirter":"admin10000",
         "ImgRoute":"case-img/case3.jpg"
@@ -238,16 +238,16 @@
     },
     {
         "idx":0,
-        "class":"관공서",
-        "title":"관공서 예시",
+        "class":"사례1",
+        "title":"사례1 예시",
         "InsertDate":"2020.03.15",
         "Wirter":"admin10000",
         "ImgRoute":"case-img/case1.jpg"
     },
     {
         "idx":1,
-        "class":"병의원",
-        "title":"병의원 예시",
+        "class":"사례2",
+        "title":"사례2 예시",
         "InsertDate":"2020.03.15",
         "Wirter":"admin10000",
         "ImgRoute":"case-img/case2.jpg"
@@ -255,8 +255,8 @@
     },
     {
         "idx":2,
-        "class":"분양",
-        "title":"분양 예시",
+        "class":"사례3",
+        "title":"사례3 예시",
         "InsertDate":"2020.03.15",
         "Wirter":"admin10000",
         "ImgRoute":"case-img/case3.jpg"
@@ -317,16 +317,16 @@
     },
     {
         "idx":0,
-        "class":"관공서",
-        "title":"관공서 예시",
+        "class":"사례1",
+        "title":"사례1 예시",
         "InsertDate":"2020.03.15",
         "Wirter":"admin10000",
         "ImgRoute":"case-img/case1.jpg"
     },
     {
         "idx":1,
-        "class":"병의원",
-        "title":"병의원 예시",
+        "class":"사례2",
+        "title":"사례2 예시",
         "InsertDate":"2020.03.15",
         "Wirter":"admin10000",
         "ImgRoute":"case-img/case2.jpg"
@@ -334,8 +334,8 @@
     },
     {
         "idx":2,
-        "class":"분양",
-        "title":"분양 예시",
+        "class":"사례3",
+        "title":"사례3 예시",
         "InsertDate":"2020.03.15",
         "Wirter":"admin10000",
         "ImgRoute":"case-img/case3.jpg"

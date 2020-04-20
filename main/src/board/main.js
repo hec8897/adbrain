@@ -24,7 +24,7 @@ const BoardPage = {
                         <img src='image/board-section2-li2.png'>
                         <h3>
                             <p>BUS ROUTE MAP</p>
-                            회사 보유 매체 노선도
+                            회사 첨부 양식
                         </h3>
                         <div class='down_btn btn'>
                             다운로드
@@ -34,7 +34,7 @@ const BoardPage = {
                         <img src='image/board-section2-li3.png'>
                         <h3>
                             <p>ADVERTISING SIZE</p>
-                            버스 광고판 사이즈
+                            회사 첨부 양식
                         </h3>
                         <div class='down_btn btn'>
                             다운로드
@@ -44,7 +44,7 @@ const BoardPage = {
                         <img src='image/board-section2-li4.png'>
                         <h3>
                             <p>YOUTUBE</p>
-                            유튜브 방송보기
+                            유튜브 바로가기
                         </h3>
                         <div class='down_btn btn'>
                             바로가기
