@@ -28,7 +28,7 @@ div.contact{
 }
 
 section.section2{
-    padding: 100px 0px;
+    @include topBottomBlank(100);
     h2{
         font-size: 2.813rem;
         text-align: center;
@@ -51,7 +51,6 @@ section.section2{
         }
     }
     section.section2{
-        padding: 50px 0px;
         h2{
             font-size: 30px;
         }

@@ -1,20 +1,93 @@
 @import '../common.scss';
 
-div.contact{
-    div.class_select{
-        div.selects{
-            display: inline-block;
-            width: 70%;
+div.contact {
+    .privacy {
+        @include wrap1200;
+        margin-top: 50px;
+
+        div.p_box {
+            height: 150px;
+            border: 1px solid #d9d9d9;
+            background: #f9f9f9;
+            padding: 20px;
+            box-sizing: border-box;
+            overflow: hidden;
+            overflow-y: scroll;
         }
-        div.checkbox{
-            margin-right: 20px;
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        ol {
+            list-style: decimal;
+            margin-left: 10px;
+        }
+
+        li {
+            font-size: 0.875rem;
+            color: $fontColorLight;
+            line-height: 20px;
+            margin-bottom: 10px;
+        }
+
+        div.checkbox {
+            margin-top: 10px
+        }
+    }
+
+    .form_area {
+        @include wrap1200;
+        margin-top: 50px;
+        border-top: 2px solid #444;
+        border-bottom: 1px solid #444;
+        input[type=text],
+        select {
             display: inline-block;
-            label{
-                font-size: 14px;
+            width: 40%
+        }
+        &>div {
+            display: block;
+            width: 100%;
+            padding: 10px 0;
+            border-bottom: 1px solid #f0f0f0;
+
+            p {
+                display: inline-block;
+                width: 20%;
+                font-size: 16px;
+                padding-left: 20px;
+                vertical-align: middle
+            }
+
+            div {
+                width: 30%;
+                display: inline-block;
+                text-align: left;
+                box-sizing: border-box;
+                margin-bottom: 5px;
+            }
+        }
+
+        div.class_select {
+            div.selects {
+                display: inline-block;
+                width: 70%;
+                margin-bottom: -5px;
+            }
+
+            div.checkbox {
+                margin-right: 20px;
+                display: inline-block;
+
+                label {
+                    font-size: .875rem;
+                }
             }
         }
     }
-    div.sub_btn{
+
+    div.sub_btn {
         max-width: 200px;
         height: 50px;
         line-height: 50px;
@@ -24,22 +97,25 @@ div.contact{
     }
 }
 
-@media (max-width:1200px){
-    div.contact div.class_select div.checkbox{
+@media (max-width:1200px) {
+    div.contact div.class_select div.checkbox {
         margin-bottom: 10px;
     }
-    
-}
-@media (max-width:960px){
+
 }
 
-@media (max-width:767px){
-    .form_area input[type=text], select,textarea{
-        width: 60%;
+@media (max-width:960px) {}
+
+@media (max-width:767px) {
+    div.contact {
+        div.form_area {
+            input[type=text],select,textarea {
+                width: 60%;
+            }
+            &>div div{
+                width: 40%;
+            }
+        }
     }
-   
-    div.contact div.class_select div.checkbox{
-        width: 40%;
-    }
-	
+
 }
