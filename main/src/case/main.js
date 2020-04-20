@@ -47,17 +47,24 @@ const CasePage = {
         EventBus.$emit('NavClose',true)
     },
     mounted() {
-        const BaseUrl = "data/data.json"
-        axios.get(BaseUrl)
-            .then((data) => {
-                console.log(data)
-                this.lists = data.data
-            })
-            document.addEventListener('scroll', () => {
-                this.getDistBottom()
-            })
+        this.getData()
+   
+    },
+    beforeRouteUpdate(to, from, next){
+        console.log(to.params)
+        next()
     },
     methods: {
+        getData(){
+            const BaseUrl = "data/data.json"
+            axios.get(BaseUrl)
+                .then((data) => {
+                    this.lists = data.data
+                })
+                document.addEventListener('scroll', () => {
+                    this.getDistBottom()
+                })
+        },
         getDistBottom() {
             let scrollPosition = window.pageYOffset;
             let windowSize = window.innerHeight;
@@ -65,11 +72,11 @@ const CasePage = {
 
             let bottom = Math.max(bodyHeight - (scrollPosition + windowSize), 0)
 
-            if (bottom <= 400) {
+            if (bottom <= 600) {
                 if (this.lists.length <= this.limit) {
                     this.limit += 0
                 } else {
-                    this.limit += 6
+                    this.limit += 5
                 }
             }
         }

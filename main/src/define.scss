@@ -36,9 +36,9 @@ $white:#fff;
     transform: translate(-50%,-50%);
 }
 
-@mixin topBottomBlank($top){
-    padding:$top+px 0px;
+@mixin topBottomBlank{
+    padding:100px 0px;
     @media (max-width:960px) {
-        padding:calc($top/2)+px 0px;
+        padding:50px 0px;
     }
 }

@@ -9,7 +9,6 @@ div.case{
         margin: 30px 0px;
         @media (max-width:767px){
             height: 280px;
-
         }
     }
     div.case_list_area{
@@ -46,7 +45,6 @@ div.case{
                 @media (max-width:414px){
                     max-width: 85%;
                 }
-
             }
         }
         ul.case_list{
@@ -54,7 +52,6 @@ div.case{
             @media (max-width:1200px){
                 text-align: center;
             }
-
             li{
                 width: 33%;
                 max-width: 380px;
@@ -63,7 +60,6 @@ div.case{
                     right: 30px;
                     bottom: 40px;
                 }
-
                 @media (max-width:1200px){
                     max-width: 32%;
                     margin: {
@@ -95,8 +91,6 @@ div.case{
                     }
                     img{
                         width: 100%;
-                      
-
                     }
                 }
                 p{
